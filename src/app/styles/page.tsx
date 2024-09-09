@@ -16,12 +16,8 @@ export default function Styles() {
     };
 
     const goToPreviousStyle = () => {
-        setCurrentStyleIndex((prevIndex) => (prevIndex - 1 + styles.length) % styles.animalStyles.length);
+        setCurrentStyleIndex((prevIndex) => (prevIndex - 1 + styles.animalStyles.length) % styles.animalStyles.length);
     };
-
-    //   const getBJJHeroesLink = (name) => {
-    //     return `https://www.bjjheroes.com/?s=${encodeURIComponent(name)}`;
-    //   };
 
     const categorizeMoves = (moves) => {
         const categories = {
