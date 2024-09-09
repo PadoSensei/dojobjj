@@ -1,0 +1,356 @@
+{
+    "bjjTechniques": {
+        "guardTechniques": {
+            "closedGuard": [
+                {
+                    "name": "Armbar",
+                    "description": "Attack the opponent's arm by trapping it between your legs and extending your hips.",
+                    "steps": [
+                        "Secure the opponent's arm by gripping their wrist with both hands.",
+                        "Place your foot on their hip and pivot your body to create an angle.",
+                        "Swing your leg over their head while keeping their arm tight to your chest.",
+                        "Pinch your knees together and pull their arm down.",
+                        "Extend your hips to apply pressure on the elbow joint."
+                    ]
+                },
+                {
+                    "name": "Triangle Choke",
+                    "description": "Trap the opponent's arm and head between your legs, creating a choke with your legs and the opponent's shoulder.",
+                    "steps": [
+                        "Shoot one leg over the opponent's shoulder and lock your ankles.",
+                        "Grab your shin with the opposite hand to maintain control.",
+                        "Place your foot on their hip and adjust your angle by shrimping out.",
+                        "Re-cross your legs, placing your knee pit over your shin.",
+                        "Squeeze your knees together, lift your hips, and pull down on their head if necessary."
+                    ]
+                },
+                {
+                    "name": "Kimura",
+                    "description": "Isolate and control the opponent's arm, bending it behind their back to apply pressure on the shoulder joint.",
+                    "steps": [
+                        "Grip the opponent's wrist with your same-side hand.",
+                        "Reach over their arm with your other hand and grab your own wrist.",
+                        "Pull their arm across their body and towards their back.",
+                        "Place your foot on their hip and pivot to create an angle.",
+                        "Apply pressure by lifting their wrist and pushing their elbow towards their head."
+                    ]
+                },
+                {
+                    "name": "Omoplata",
+                    "description": "Trap the opponent's arm with your legs and use your hips to apply pressure on their shoulder.",
+                    "steps": [
+                        "Isolate the opponent's arm by trapping it with your legs.",
+                        "Place your foot on their hip and pivot to create an angle.",
+                        "Swing your leg over their shoulder and lock your ankles.",
+                        "Use your hips to apply pressure on their shoulder.",
+                        "Maintain control and adjust your grip as needed."
+                    ]
+                },
+                {
+                    "name": "Cross Collar Choke",
+                    "description": "Grip the opponent's collar with both hands and apply pressure on both sides of their neck to choke.",
+                    "steps": [
+                        "Grip the opponent's collar with one hand, palm up.",
+                        "Grip the other side of their collar with your other hand, palm down.",
+                        "Pull their collar tight to apply pressure on their neck.",
+                        "Squeeze your elbows together to increase the choke.",
+                        "Maintain control and adjust your grip as needed."
+                    ]
+                }
+            ],
+            "openGuard": [
+                {
+                    "name": "De La Riva Guard",
+                    "description": "Hook one leg around the opponent's leg while controlling their ankle or pants for various sweeps and submissions.",
+                    "steps": [
+                        "Hook your outside leg around the opponent's leg.",
+                        "Control their ankle or pants with your hand.",
+                        "Use your other foot to push on their hip or thigh.",
+                        "Pull their ankle towards you while pushing with your foot.",
+                        "Sweep them by extending your hooked leg and pulling their ankle."
+                    ]
+                },
+                {
+                    "name": "Spider Guard",
+                    "description": "Control the opponent's sleeves while placing your feet on their biceps to create distance and set up sweeps or submissions.",
+                    "steps": [
+                        "Grip both of the opponent's sleeves.",
+                        "Place your feet on their biceps, extending your legs to create distance.",
+                        "Use your legs to control their arms and off-balance them.",
+                        "Push and pull with your legs to manipulate their posture.",
+                        "Transition to sweeps or submissions as openings arise."
+                    ]
+                },
+                {
+                    "name": "Butterfly Guard",
+                    "description": "Use your feet inside the opponent's thighs to elevate and sweep them or transition to other positions.",
+                    "steps": [
+                        "Sit up and place your feet inside the opponent's thighs.",
+                        "Grip their sleeves or collar for control.",
+                        "Use your legs to lift and off-balance them.",
+                        "Lean back and pull them towards you while lifting with your legs.",
+                        "Sweep them to the side and transition to a dominant position."
+                    ]
+                },
+                {
+                    "name": "X-Guard",
+                    "description": "Control the opponent's leg and arm with your legs in an X-shape, creating sweeps and submission opportunities.",
+                    "steps": [
+                        "Sit up and place one leg over the opponent's leg and the other under their arm.",
+                        "Grip their sleeve or collar for control.",
+                        "Use your legs to control their limbs and off-balance them.",
+                        "Push and pull with your legs to manipulate their posture.",
+                        "Transition to sweeps or submissions as openings arise."
+                    ]
+                }
+            ],
+            "halfGuard": [
+                {
+                    "name": "Underhook Half Guard Sweep",
+                    "description": "Use an underhook to sweep the opponent from the half guard position.",
+                    "steps": [
+                        "Establish half guard position with an underhook on the opponent's arm.",
+                        "Grip their sleeve or collar with your other hand.",
+                        "Use your underhook to control their posture and off-balance them.",
+                        "Kick your underhook leg out and sweep them to the side.",
+                        "Transition to a dominant position or submission."
+                    ]
+                },
+                {
+                    "name": "Half Guard Pass",
+                    "description": "Pass the opponent's half guard to establish side control or mount.",
+                    "steps": [
+                        "Establish a strong base and posture in the half guard position.",
+                        "Control the opponent's hips and legs to prevent sweeps.",
+                        "Create space by pushing their knee away or stepping over their leg.",
+                        "Maintain control and pass to side control or mount.",
+                        "Secure the dominant position and look for submissions."
+                    ]
+                }
+            ]
+        },
+        "topPositions": {
+            "sideControl": [
+                {
+                    "name": "Americana",
+                    "description": "Control the opponent's arm, bending it at a right angle, and apply pressure to the elbow joint.",
+                    "steps": [
+                        "Isolate the opponent's arm by pinning it to the mat.",
+                        "Grip their wrist with your same-side hand.",
+                        "Slide your other hand under their arm and grab your own wrist.",
+                        "Lift their elbow while keeping their wrist pinned to the mat.",
+                        "Apply pressure by pushing their wrist towards their head."
+                    ]
+                },
+                {
+                    "name": "Arm Triangle",
+                    "description": "Trap the opponent's arm and head using your arm and chest, applying pressure on their neck to choke.",
+                    "steps": [
+                        "Isolate the opponent's arm and head with your arm.",
+                        "Grip your bicep with your opposite hand.",
+                        "Place your head on the mat next to their head.",
+                        "Squeeze your arms together to apply pressure on their neck.",
+                        "Walk your legs towards their head to increase the choke."
+                    ]
+                },
+                {
+                    "name": "Knee on Belly",
+                    "description": "Place your knee on the opponent's torso to increase pressure and create openings for submissions or transitions.",
+                    "steps": [
+                        "Transition to knee-on-belly by placing your knee on their torso.",
+                        "Control their collar or sleeve with your hands.",
+                        "Apply pressure by driving your knee into their torso.",
+                        "Maintain balance by keeping your other foot on the mat.",
+                        "Look for openings to transition to submissions or other positions."
+                    ]
+                },
+                {
+                    "name": "Transition to Mount",
+                    "description": "Transition from side control to the mounted position.",
+                    "steps": [
+                        "Establish a strong side control position.",
+                        "Control the opponent's hips and shoulders to prevent movement.",
+                        "Step over their head and place your knee on the mat.",
+                        "Bring your other leg over and establish the mounted position.",
+                        "Secure the mount and look for submissions or transitions."
+                    ]
+                }
+            ],
+            "mount": [
+                {
+                    "name": "Armbar from Mount",
+                    "description": "Isolate the opponent's arm and extend your hips to apply pressure on the elbow joint.",
+                    "steps": [
+                        "Isolate the opponent's arm by gripping their wrist.",
+                        "Place your foot on their hip and pivot to create an angle.",
+                        "Swing your leg over their head while keeping their arm tight to your chest.",
+                        "Pinch your knees together and pull their arm down.",
+                        "Extend your hips to apply pressure on the elbow joint."
+                    ]
+                },
+                {
+                    "name": "Cross Collar Choke from Mount",
+                    "description": "Grip the opponent's collar with both hands and apply pressure on both sides of their neck to choke.",
+                    "steps": [
+                        "Grip the opponent's collar with one hand, palm up.",
+                        "Grip the other side of their collar with your other hand, palm down.",
+                        "Pull their collar tight to apply pressure on their neck.",
+                        "Squeeze your elbows together to increase the choke.",
+                        "Maintain control and adjust your grip as needed."
+                    ]
+                },
+                {
+                    "name": "Mounted Triangle",
+                    "description": "Transition one leg over the opponent's shoulder while trapping their arm, and secure the triangle choke.",
+                    "steps": [
+                        "Isolate the opponent's arm and head with your legs.",
+                        "Shoot one leg over their shoulder and lock your ankles.",
+                        "Adjust your angle by shrimping out to the side.",
+                        "Re-cross your legs, placing your knee pit over your shin.",
+                        "Squeeze your knees together and lift your hips to apply the choke."
+                    ]
+                }
+            ],
+            "backControl": [
+                {
+                    "name": "Rear Naked Choke",
+                    "description": "Wrap your arm around the opponent's neck, applying pressure on both sides of their neck to choke.",
+                    "steps": [
+                        "Wrap your arm around the opponent's neck, palm down.",
+                        "Grip your bicep with your opposite hand.",
+                        "Place your other hand behind their head.",
+                        "Squeeze your arms together to apply pressure on their neck.",
+                        "Maintain control and adjust your grip as needed."
+                    ]
+                },
+                {
+                    "name": "Bow and Arrow Choke",
+                    "description": "Grip the opponent's collar and their leg, extending your legs to apply pressure on their neck to choke.",
+                    "steps": [
+                        "Grip the opponent's collar with one hand.",
+                        "Grip their leg with your other hand.",
+                        "Extend your legs to create tension.",
+                        "Pull their collar tight to apply pressure on their neck.",
+                        "Maintain control and adjust your grip as needed."
+                    ]
+                },
+                {
+                    "name": "Armbar from Back Control",
+                    "description": "Secure the opponent's arm and extend your hips to apply pressure on the elbow joint.",
+                    "steps": [
+                        "Isolate the opponent's arm by gripping their wrist.",
+                        "Place your foot on their hip and pivot to create an angle.",
+                        "Swing your leg over their head while keeping their arm tight to your chest.",
+                        "Pinch your knees together and pull their arm down.",
+                        "Extend your hips to apply pressure on the elbow joint."
+                    ]
+                }
+            ]
+        },
+        "escapes": {
+            "guardPasses": [
+                {
+                    "name": "Torreando Pass",
+                    "description": "Control the opponent's legs and use lateral movement to pass their guard.",
+                    "steps": [
+                        "Grip the opponent's pants near their knees.",
+                        "Push their legs to one side while stepping to the opposite side.",
+                        "Maintain control of their legs as you move around their guard.",
+                        "Establish side control by pinning their hips and shoulders.",
+                        "Secure your position and look for submissions or transitions."
+                    ]
+                },
+                {
+                    "name": "Knee Slice Pass",
+                    "description": "Drive your knee through the opponent's guard, using pressure and control to pass.",
+                    "steps": [
+                        "Grip the opponent's collar and pants for control.",
+                        "Drive your knee through the middle of their guard.",
+                        "Use your other leg to push their leg out of the way.",
+                        "Establish side control by pinning their hips and shoulders.",
+                        "Secure your position and look for submissions or transitions."
+                    ]
+                },
+                {
+                    "name": "Over/Under Pass",
+                    "description": "Control the opponent's legs with an over/under grip to pass their guard.",
+                    "steps": [
+                        "Grip one of the opponent's pants with an over grip and the other with an under grip.",
+                        "Create space by pushing their legs apart.",
+                        "Step one leg through the middle and establish side control.",
+                        "Secure your position and look for submissions or transitions."
+                    ]
+                }
+            ],
+            "mountEscapes": [
+                {
+                    "name": "Upa Escape",
+                    "description": "Bridge and roll to escape the mounted position.",
+                    "steps": [
+                        "Establish a strong base by placing your feet on the mat.",
+                        "Bridge your hips up and roll to one side.",
+                        "Keep your elbows tight to your body to protect your face.",
+                        "Continue rolling until you escape the mount.",
+                        "Establish a guard or other defensive position."
+                    ]
+                },
+                {
+                    "name": "Elbow Escape",
+                    "description": "Use your elbows to create space and escape the mounted position.",
+                    "steps": [
+                        "Place your elbows on the mat near your opponent's hips.",
+                        "Bridge your hips up and create space with your elbows.",
+                        "Shrimp or hip escape to establish a guard or other defensive position.",
+                        "Maintain control and look for sweeps or submissions."
+                    ]
+                }
+            ],
+            "sideControlEscapes": [
+                {
+                    "name": "Hip Escape",
+                    "description": "Use your hips to create space and escape side control.",
+                    "steps": [
+                        "Establish a strong base by placing your feet on the mat.",
+                        "Bridge your hips up and create space with your hips.",
+                        "Shrimp or hip escape to establish a guard or other defensive position.",
+                        "Maintain control and look for sweeps or submissions."
+                    ]
+                },
+                {
+                    "name": "Knee Escape",
+                    "description": "Use your knee to create space and escape side control.",
+                    "steps": [
+                        "Place your knee on the mat near your opponent's hips.",
+                        "Bridge your hips up and create space with your knee.",
+                        "Shrimp or hip escape to establish a guard or other defensive position.",
+                        "Maintain control and look for sweeps or submissions."
+                    ]
+                }
+            ],
+            "backControlEscapes": [
+                {
+                    "name": "Trap and Roll Escape",
+                    "description": "Trap the opponent's arm and roll to escape back control.",
+                    "steps": [
+                        "Trap the opponent's arm with your arm and leg.",
+                        "Bridge your hips up and roll towards the trapped arm.",
+                        "Keep your elbows tight to your body to protect your face.",
+                        "Continue rolling until you escape back control.",
+                        "Establish a guard or other defensive position."
+                    ]
+                },
+                {
+                    "name": "Shrimp Escape",
+                    "description": "Use a shrimp motion to create space and escape back control.",
+                    "steps": [
+                        "Establish a strong base by placing your feet on the mat.",
+                        "Shrimp your hips away from the opponent to create space.",
+                        "Use your arms to defend against submissions.",
+                        "Continue shrimping until you escape back control.",
+                        "Establish a guard or other defensive position."
+                    ]
+                }
+            ]
+        }
+    }
+}

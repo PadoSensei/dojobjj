@@ -1,0 +1,123 @@
+{
+    "start": {
+      "title": "Open Mat",
+      "text": "You enter the dojo for an open mat session. You see several training partners available for rolls. Who do you want to roll with first?",
+      "choices": [
+        { "text": "Roll with a white belt", "nextPart": "whiteBeltRoll" },
+        { "text": "Roll with a blue belt", "nextPart": "blueBeltRoll" },
+        { "text": "Roll with a purple belt", "nextPart": "purpleBeltRoll" }
+      ]
+    },
+    "whiteBeltRoll": {
+      "title": "White Belt Roll",
+      "text": "You start rolling with a white belt. They attempt a basic guard pass. How do you respond?",
+      "choices": [
+        { "text": "Use the Upa Escape", "nextPart": "upaEscapeTest" },
+        { "text": "Use the Elbow Escape", "nextPart": "elbowEscapeTest" }
+      ]
+    },
+    "blueBeltRoll": {
+      "title": "Blue Belt Roll",
+      "text": "You start rolling with a blue belt. They attempt a submission from side control. How do you respond?",
+      "choices": [
+        { "text": "Use the Hip Escape", "nextPart": "hipEscapeTest" },
+        { "text": "Use the Knee Escape", "nextPart": "kneeEscapeTest" }
+      ]
+    },
+    "purpleBeltRoll": {
+      "title": "Purple Belt Roll",
+      "text": "You start rolling with a purple belt. They attempt to take your back. How do you respond?",
+      "choices": [
+        { "text": "Use the Trap and Roll Escape", "nextPart": "trapAndRollEscapeTest" },
+        { "text": "Use the Shrimp Escape", "nextPart": "shrimpEscapeTest" }
+      ]
+    },
+    "upaEscapeTest": {
+      "title": "Upa Escape Test",
+      "text": "Let's see if you can perform the Upa Escape correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test", "technique": "Upa Escape" }
+      ],
+      "nextPartAfterTest": "whiteBeltRollSuccess"
+    },
+    "elbowEscapeTest": {
+      "title": "Elbow Escape Test",
+      "text": "Let's see if you can perform the Elbow Escape correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test", "technique": "Elbow Escape" }
+      ],
+      "nextPartAfterTest": "whiteBeltRollSuccess"
+    },
+    "hipEscapeTest": {
+      "title": "Hip Escape Test",
+      "text": "Let's see if you can perform the Hip Escape correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test", "technique": "Hip Escape" }
+      ],
+      "nextPartAfterTest": "blueBeltRollSuccess"
+    },
+    "kneeEscapeTest": {
+      "title": "Knee Escape Test",
+      "text": "Let's see if you can perform the Knee Escape correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test", "technique": "Knee Escape" }
+      ],
+      "nextPartAfterTest": "blueBeltRollSuccess"
+    },
+    "trapAndRollEscapeTest": {
+      "title": "Trap and Roll Escape Test",
+      "text": "Let's see if you can perform the Trap and Roll Escape correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test", "technique": "Trap and Roll Escape" }
+      ],
+      "nextPartAfterTest": "purpleBeltRollSuccess"
+    },
+    "shrimpEscapeTest": {
+      "title": "Shrimp Escape Test",
+      "text": "Let's see if you can perform the Shrimp Escape correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test", "technique": "Shrimp Escape" }
+      ],
+      "nextPartAfterTest": "purpleBeltRollSuccess"
+    },
+    "whiteBeltRollSuccess": {
+      "title": "White Belt Roll Success",
+      "text": "You successfully defended against the white belt's attack. Do you want to continue rolling or move on to another partner?",
+      "choices": [
+        { "text": "Continue rolling with the white belt", "nextPart": "whiteBeltRoll" },
+        { "text": "Roll with a blue belt", "nextPart": "blueBeltRoll" },
+        { "text": "Roll with a purple belt", "nextPart": "purpleBeltRoll" }
+      ]
+    },
+    "blueBeltRollSuccess": {
+      "title": "Blue Belt Roll Success",
+      "text": "You successfully defended against the blue belt's attack. Do you want to continue rolling or move on to another partner?",
+      "choices": [
+        { "text": "Continue rolling with the blue belt", "nextPart": "blueBeltRoll" },
+        { "text": "Roll with a white belt", "nextPart": "whiteBeltRoll" },
+        { "text": "Roll with a purple belt", "nextPart": "purpleBeltRoll" }
+      ]
+    },
+    "purpleBeltRollSuccess": {
+      "title": "Purple Belt Roll Success",
+      "text": "You successfully defended against the purple belt's attack. Do you want to continue rolling or move on to another partner?",
+      "choices": [
+        { "text": "Continue rolling with the purple belt", "nextPart": "purpleBeltRoll" },
+        { "text": "Roll with a white belt", "nextPart": "whiteBeltRoll" },
+        { "text": "Roll with a blue belt", "nextPart": "blueBeltRoll" }
+      ]
+    },
+    "test": {
+      "title": "Test Your Skills",
+      "text": "Let's see if you can perform the technique correctly.",
+      "choices": [
+        { "text": "Start Test", "nextPart": "test" }
+      ]
+    },
+    "testFailed": {
+      "title": "Test Failed",
+      "text": "You failed the move test. The story ends here.",
+      "choices": []
+    }
+  }
+  

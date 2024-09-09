@@ -1,0 +1,394 @@
+{
+    "animalStyles":  [
+        {
+            "name": "Spider",
+            "description": "The Spider style in BJJ is characterized by the use of long limbs to control and submit opponents. Practitioners of this style excel at creating and maintaining distance, using their legs to control their opponent's arms and posture.",
+            "characteristics": [
+                "Excellent guard retention",
+                "Specializes in submissions from guard",
+                "Uses flexibility to create awkward angles",
+                "Excels in gi-based BJJ"
+            ],
+            "famousPractitioners": [
+                [ "Keenan Cornelius", "https://www.bjjheroes.com/bjj-fighters/keenan-cornelius" ],
+                ["Michael Langhi", "https://www.bjjheroes.com/bjj-fighters/michael-langhi-bjj-fighter-bio"],
+                ["Roger Gracie", "https://www.bjjheroes.com/bjj-fighters/roger-gracie-bio"],
+                ["Nicky Ryan", "https://www.bjjheroes.com/bjj-fighters/nicky-ryan"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Posture Control - Inverted Armbar",
+                "Closed Guard Collar and Elbow Control - Triangle Choke",
+                "Open Guard: Double Wrist Control to Overhead Sweep",
+                "Open Guard vs Standing: Double Wrist Control to Tripod Sweep",
+                "Closed Guard Pin: Armbar Vs Two Handed Choke",
+                "Sliding Collar Choke (from back control)",
+                "Closed Guard Pin Escape vs Arm Between the Legs",
+                "Half Guard Pin: Guard Recovery"
+            ]
+        },
+        {
+            "name": "Gorilla",
+            "description": "The Gorilla style in BJJ focuses on using strength and pressure to dominate opponents. Practitioners of this style often rely on powerful takedowns, crushing top pressure, and strength-based submissions.",
+            "characteristics": [
+                "Powerful takedowns and throws",
+                "Strong pressure passing",
+                "Excels in top positions",
+                "Favors strength-based submissions like kimuras"
+            ],
+            "famousPractitioners": [
+                ["André Galvão", "https://www.bjjheroes.com/bjj-fighters/andre-galvao-bjj-and-mma-fighter-wiki"],
+                ["Rodolfo Vieira", "https://www.bjjheroes.com/bjj-fighters/rodolfo-vieira-bjj-wiki"],
+                ["Roberto 'Cyborg' Abreu", "https://www.bjjheroes.com/bjj-fighters/roberto-cyborg-abreu-bjj-fighter-wiki"],
+                ["Marcus 'Buchecha' Almeida", "https://www.bjjheroes.com/bjj-fighters/marcus-almeida-buchecha"]
+            ],
+            "moveCurriculum": [
+                "Double Leg Takedown",
+                "Guard Passing: Leg Staple Pass",
+                "Half Guard: Pass to Mount (7 point pass)",
+                "Side Control to Mount Transition",
+                "Mount Top Overview",
+                "Knee on belly drills",
+                "Side Control: Kata Gatame (Head and Arm Choke)",
+                "Mount: Keylock (Americana / Shoulder Lock)",
+                "Mount: Ezekiel choke"
+            ]
+        },
+        {
+            "name": "Anaconda",
+            "description": "The Anaconda style in BJJ emphasizes smooth, controlling movements and gradual constriction of the opponent. Practitioners of this style excel in maintaining dominant positions and applying steady pressure to wear down opponents.",
+            "characteristics": [
+                "Excellent positional control",
+                "Smooth transitions between positions",
+                "Specializes in chokes and constricting submissions",
+                "Patient, methodical approach"
+            ],
+            "famousPractitioners": [
+                ["Marcelo Garcia", "https://www.bjjheroes.com/bjj-fighters/marcelo-garcia-fighter-profile"],
+                ["Rafael Mendes",  "https://www.bjjheroes.com/bjj-fighters/rafael-mendes-bjj-fighter-wiki"],
+                ["Rafa Lovato Jr.", "https://www.bjjheroes.com/bjj-fighters/rafael-lovato-jr"],
+                ["Lucas Lepri", "https://www.bjjheroes.com/bjj-fighters/lucas-lepri-wiki-bio"]
+            ],
+            "moveCurriculum": [
+                "Snatch single leg (Outside leg finish)",
+                "Front Headlock Go Behind",
+                "Turtle Position to Back Mount",
+                "Sliding Collar Choke",
+                "Side Control: North South Choke",
+                "Mount: Kata Gatame (Head and arm choke)",
+                "Side Control to Mount Transition",
+                "Mount to Back Mount and Rear Naked Choke"
+            ]
+        },
+        {
+            "name": "Mongoose",
+            "description": "The Mongoose style in BJJ is characterized by quick, agile movements and a high-energy approach. Practitioners of this style excel in creating and capitalizing on scrambles, often catching opponents off-guard with their speed.",
+            "characteristics": [
+                "Quick, explosive movements",
+                "Excels in scramble situations",
+                "Specializes in quick submissions",
+                "High-paced, aggressive style"
+            ],
+            "famousPractitioners": [
+                ["Caio Terra", "https://www.bjjheroes.com/bjj-fighters/caio-terra"],
+                ["Bruno Malfacine", "https://www.bjjheroes.com/bjj-fighters/bruno-malfacine-bjj-wiki"],
+                ["Mikey Musumeci", "https://www.bjjheroes.com/bjj-fighters/mikey-musumeci"],
+                ["Gui Mendes", "https://www.bjjheroes.com/bjj-fighters/guilherme-mendes-facts-and-bio"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard vs Kneeling Posture: Hip Bump Sweep",
+                "Closed Guard vs Standing Posture: Handstand Sweep (Lumberjack Sweep)",
+                "Closed Guard vs Standing Posture: Handstand Sweep (Lumberjack Sweep) to Step-over Armbar",
+                "Standing High-elbow Guillotine",
+                "Knee on belly: Near Armbar",
+                "Knee on belly: Far Armbar",
+                "Mount: Elbow/Knee Escape",
+                "Side Control: Escape Head and Arm Control - Escape to the Knees, Single Leg"
+            ]
+        },
+        {
+            "name": "Bear",
+            "description": "The Bear style in BJJ focuses on using heavy pressure and overwhelming force to control and submit opponents. Practitioners of this style often rely on their size and strength to maintain dominant positions and wear down their opponents.",
+            "characteristics": [
+                "Heavy pressure from top positions",
+                "Strong, smothering control",
+                "Favors grinding, attrition-based approach",
+                "Excels in pin positions like side control and mount"
+            ],
+            "famousPractitioners": [
+                ["Bernardo Faria", "https://www.bjjheroes.com/bjj-fighters/bernardo-faria-facts-and-bio"],
+                ["Orlando Sanchez", "https://www.bjjheroes.com/bjj-fighters/orlando-sanchez"],
+                ["João Gabriel Rocha", "https://www.bjjheroes.com/bjj-fighters/joao-gabriel-rocha"],
+                ["Marcus 'Buchecha' Almeida", "https://www.bjjheroes.com/bjj-fighters/marcus-almeida-buchecha"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Top: Stiff Arm Closed Guard Break",
+                "Guard Passing: Knee Cut Pass",
+                "Half Guard: Pass to Side Control (Knee Cut Pass)",
+                "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+                "Mount: Armbar vs Instinctive Opp (vs lateral push)",
+                "Knee on belly: Cross Choke",
+                "Side Control: Kata Gatame (Head and Arm Choke)",
+                "Headlock on the Ground (Kesa Gatame) Overview"
+            ]
+        },
+        {
+            "name": "Octopus",
+            "description": "The Octopus style in BJJ is characterized by a highly technical and diverse approach. Practitioners of this style are comfortable in various positions and excel at chaining techniques together fluidly.",
+            "characteristics": [
+                "Highly adaptable and diverse skill set",
+                "Comfortable in any position",
+                "Excels at chaining techniques",
+                "Creative problem-solving approach"
+            ],
+            "famousPractitioners": [
+                ["Garry Tonon", "https://www.bjjheroes.com/bjj-fighters/garry-tonon"],
+                ["Eddie Bravo", "https://www.bjjheroes.com/bjj-fighters/eddie-bravo"],
+                ["Braulio Estima", "https://www.bjjheroes.com/bjj-fighters/braulio-estima-facts-and-bio"],
+                ["Lachlan Giles", "https://www.bjjheroes.com/bjj-fighters/lachlan-giles"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Posture control with Head and Arm - Overview",
+                "Closed Guard Posture control with Head and Arm - Transition to Back Mount",
+                "Open Guard: Double Wrist Control to Overhead Sweep",
+                "Closed Guard Collar and Elbow Control - Shoulder Trap Armbar",
+                "Side Control: Armbar (Head Side Arm Grip)",
+                "Knee on belly: Far Armbar",
+                "Closed Guard vs Kneeling Posture: Flower Sweep",
+                "Turtle Position - Bottom: Guard Recovery Escape"
+            ]
+        },
+        {
+            "name": "Kangaroo",
+            "description": "The Kangaroo style in BJJ is known for its explosive, dynamic movements and athletic approach. Practitioners of this style often use their agility and timing to catch opponents off-guard with spectacular techniques.",
+            "characteristics": [
+                "Explosive, dynamic movements",
+                "Utilizes athleticism in techniques",
+                "Specializes in flying submissions and sweeps",
+                "High-risk, high-reward style"
+            ],
+            "famousPractitioners": [
+                ["Leandro Lo", "https://www.bjjheroes.com/bjj-fighters/leandro-lo-pereira"],
+                ["Felipe Pena", "https://www.bjjheroes.com/bjj-fighters/felipe-pena-preguica"],
+                ["Yuri Simoes", "https://www.bjjheroes.com/bjj-fighters/yuri-simoes"],
+                ["Erberth Santos", "https://www.bjjheroes.com/bjj-fighters/erberth-santos"]
+            ],
+            "moveCurriculum": [
+                "Double Leg Takedown",
+                "Guard Passing: Leg Staple Pass",
+                "Closed Guard vs Kneeling Posture: Hip Bump Sweep",
+                "Standing High-elbow Guillotine",
+                "Mount: Armbar vs Instinctive Opp (vs vertical push)",
+                "Knee on belly: Near Armbar",
+                "Closed Guard vs Standing Posture: Handstand Sweep (Lumberjack Sweep) to Step-over Armbar",
+                "Turtle Position - Bottom: Guard Recovery Escape"
+            ]
+        },
+        {
+            "name": "Turtle",
+            "description": "The Turtle style in BJJ focuses on defensive techniques and the ability to survive and escape from bad positions. Practitioners of this style excel at protecting themselves and creating opportunities from seemingly disadvantageous positions.",
+            "characteristics": [
+                "Excellent defensive skills",
+                "Specializes in escapes and reversals",
+                "High endurance and patience",
+                "Turns defensive positions into offensive opportunities"
+            ],
+            "famousPractitioners": [
+                ["Eduardo Telles","https://www.bjjheroes.com/bjj-fighters/eduardo-telles"],
+                ["Priit Mihkelson","https://bjjfanatics.com/collections/priit-mihkelson?srsltid=AfmBOopoEE1P1IIKQkykX4D-ZJaJrhhLqCW3Q6VbFrHah45C5X9Gmm6l"],
+                ["Bernardo Faria", "https://www.bjjheroes.com/bjj-fighters/bernardo-faria-facts-and-bio"]
+            ],
+            "moveCurriculum": [
+                "Turtle Position Overview",
+                "Closed Guard Posture Overview",
+                "Half Guard Pin: Guard Recovery",
+                "Side Control: Escape Head and Arm Control - Guard Recovery",
+                "Mount: Elbow/Knee Escape",
+                "North South Control: Spinning Escape (Elbows Inside)",
+                "Closed Guard Pin: Armbar Vs Two Handed Choke",
+                "Submission Defence: Closed Guard Guillotine"
+            ]
+        },
+        {
+            "name": "Shark",
+            "description": "The Shark style in BJJ is characterized by an aggressive, submission-hunting approach. Practitioners of this style are always looking for the finish, often sacrificing position for submission attempts.",
+            "characteristics": [
+                "Aggressive submission hunting",
+                "High-risk, high-reward approach",
+                "Specializes in chokes and joint locks",
+                "Constant attack mentality"
+            ],
+            "famousPractitioners": [
+                ["Josh Hinger", "https://www.bjjheroes.com/bjj-fighters/josh-hinger"],
+                ["Jeff Glover", "https://www.bjjheroes.com/bjj-fighters/jeff-glover"],
+                ["Bill Cooper", "https://www.bjjheroes.com/bjj-fighters/bill-the-grill-cooper-paragon"],
+                ["Geo Martinez", "https://www.bjjheroes.com/bjj-fighters/geo-martinez"]
+            ],
+            "moveCurriculum": [
+                "Front Headlock Go Behind",
+                "Guard Passing Overview: Four Foundational Guard Passes",
+                "Side Control to Mount Transition",
+                "Side Control: North South Choke",
+                "Mount: Kata Gatame (Head and arm choke)",
+                "Knee on belly: Cross Choke",
+                "Standing High-elbow Guillotine",
+                "Closed Guard Collar and Elbow Control - Triangle Choke"
+            ]
+        },
+        {
+            "name": "Crab",
+            "description": "The Crab style in BJJ specializes in leg locks and lower body submissions. Practitioners of this style are experts at entangling their opponents' legs and finding creative ways to attack the lower body.",
+            "characteristics": [
+                "Specializes in leg locks",
+                "Excellent at creating and maintaining leg entanglements",
+                "Unique, often unorthodox approach",
+                "Strong focus on lower body control"
+            ],
+            "famousPractitioners": [
+                ["Craig Jones", "https://www.bjjheroes.com/bjj-fighters/jones"],
+                ["Lachlan Giles", "https://www.bjjheroes.com/bjj-fighters/lachlan-giles"],
+                ["Dean Lister","https://www.bjjheroes.com/bjj-fighters/dean-lister"],
+                ["Garry Tonon", "https://www.bjjheroes.com/bjj-fighters/garry-tonon"]
+            ],
+            "moveCurriculum": [
+                "Single Leg Takedown variations",
+                "Open Guard vs Standing: Double Wrist Control to Tripod Sweep",
+                "Half Guard: Pass to Side Control (Knee Cut Pass) (defend against this)",
+                "Guard Top: Straight Foot Lock",
+                "Half Guard Pin: Guard Recovery (to set up leg entanglements)",
+                "Open Guard: Double Wrist Control to Overhead Sweep (to enter leg entanglements)",
+                "Knee on belly drills (for top control when leg locks fail)",
+                "Side Control: Escape Head and Arm Control - Escape to the Knees, Single Leg"
+            ]
+        },
+        {
+            "name": "Chameleon",
+            "description": "The Chameleon style in BJJ is characterized by adaptability and the ability to use unexpected techniques. Practitioners of this style are comfortable in various positions and excel at catching opponents off-guard with surprising moves.",
+            "characteristics": [
+                "Highly adaptable fighting style",
+                "Comfortable in all positions",
+                "Specializes in unexpected techniques",
+                "Creative problem-solving approach"
+            ],
+            "famousPractitioners": [
+                ["Marcelo Garcia","https://www.bjjheroes.com/bjj-fighters/marcelo-garcia-fighter-profile"],
+                ["Ryan Hall","https://www.bjjheroes.com/bjj-fighters/ryan-hall"],
+                ["Keenan Cornelius","https://www.bjjheroes.com/bjj-fighters/keenan-cornelius"],
+                ["Michelle Nicolini", "https://www.bjjheroes.com/bjj-fighters/michelle-nicolini"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Over the Back Posture Control - Head Outside Attacks",
+                "Closed Guard vs Standing Posture: Handstand Sweep (Lumberjack Sweep) to Step-over Armbar",
+                "Turtle Position - Bottom: Guard Recovery Escape",
+                "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+                "Mount: Armbar vs Instinctive Opp (vs vertical push)",
+                "Knee on belly: Near Armbar",
+                "Guard Passing Overview: Four Foundational Guard Passes",
+                "Mount to Back Mount and Rear Naked Choke"
+            ]
+        },
+        {
+            "name": "Sloth",
+            "description": "The Sloth style in BJJ focuses on a slow, methodical approach with an emphasis on conserving energy and maintaining dominant positions. Practitioners of this style excel at wearing down opponents through consistent pressure and positional dominance.",
+            "characteristics": [
+                "Slow, methodical approach",
+                "Emphasis on energy conservation",
+                "Strong positional control",
+                "Wins by points or advantages rather than submissions"
+            ],
+            "famousPractitioners": [
+                ["Bernardo Faria", "https://www.bjjheroes.com/bjj-fighters/bernardo-faria-facts-and-bio"],
+                ["Murilo Santana","https://www.bjjheroes.com/bjj-fighters/murilo-santana-facts-and-bio"],
+                ["Xande Ribeiro","https://www.bjjheroes.com/bjj-fighters/xande-ribeiro-fighter-wiki"],
+                ["Leo Leite", "https://www.bjjheroes.com/bjj-fighters/lucas-leite"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Posture Overview",
+                "Half Guard Pin: Guard Recovery",
+                "Turtle Position Overview",
+                "Closed Guard Top: Kneeling Guard Break",
+                "Guard Passing: Knee Cut Pass",
+                "Half Guard: Pass to Side Control (Knee Cut Pass)",
+                "Side Control to Mount Transition",
+                "Mount Top Overview"
+            ]
+        },
+        {
+            "name": "Wolverine",
+            "description": "The Wolverine style in BJJ is characterized by relentless pressure and a grinding approach. Practitioners of this style excel at wearing down opponents through constant forward pressure and a never-give-up attitude.",
+            "characteristics": [
+                "Relentless pressure",
+                "Grinding, attrition-based approach",
+                "Strong cardio and endurance",
+                "Aggressive passing and top game"
+            ],
+            "famousPractitioners": [
+                ["Bruno Bastos","https://www.bjjheroes.com/bjj-fighters/bruno-bastos"],
+                ["Andrew Wiltse", "https://www.bjjheroes.com/bjj-fighters/felipe-pena-preguica"],
+                ["Fabio Gurgel","https://www.bjjheroes.com/bjj-fighters/fabio-gurgel-wiki"],
+                ["Romulo Barral", "https://www.bjjheroes.com/bjj-fighters/romulo-barral-wiki"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Top: Stiff Arm Closed Guard Break",
+                "Guard Passing: Leg Staple Pass",
+                "Half Guard: Pass to Mount (7 point pass)",
+                "Side Control: Kata Gatame (Head and Arm Choke)",
+                "Mount: Ezekiel choke",
+                "Knee on belly: Cross Choke",
+                "Side Control to Mount Transition",
+                "Headlock on the Ground (Kesa Gatame) Overview"
+            ]
+        },
+        {
+            "name": "Eel",
+            "description": "The Eel style in BJJ is characterized by slippery, elusive movements and an ability to escape from tight situations. Practitioners of this style excel in creating and exploiting scrambles, often frustrating opponents with their ability to slip out of bad positions.",
+            "characteristics": [
+                "Highly elusive and hard to control",
+                "Excels in scramble situations",
+                "Specializes in escapes and reversals",
+                "Fluid, unpredictable movement"
+            ],
+            "famousPractitioners": [
+                ["Bill Cooper", "https://www.bjjheroes.com/bjj-fighters/bill-the-grill-cooper-paragon"],
+                ["Edwin Najmi", "https://www.bjjheroes.com/bjj-fighters/edwin-najmi"],
+                ["Gianni Grippo","https://www.bjjheroes.com/bjj-fighters/gianni-grippo"],
+                ["Caio Terra", "https://www.bjjheroes.com/bjj-fighters/caio-terra"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard vs Kneeling Posture: Hip Bump Sweep",
+                "Open Guard: Double Wrist Control to Overhead Sweep",
+                "Turtle Position - Bottom: Guard Recovery Escape",
+                "Side Control: Escape Head and Arm Control - Back Door",
+                "Mount: Bridge Escape",
+                "North South Control: Pendulum Escape (Elbows Outside)",
+                "Front Headlock Go Behind",
+                "Knee on belly: Far Armbar"
+            ]
+        },
+        {
+            "name": "Python",
+            "description": "The Python style in BJJ emphasizes gradual constriction and control of the opponent. Practitioners of this style excel at slowly breaking down their opponent's defenses and applying steady, increasing pressure until submission or positional dominance is achieved.",
+            "characteristics": [
+                "Gradual, increasing pressure",
+                "Specializes in constricting holds and chokes",
+                "Patient, methodical approach",
+                "Strong focus on positional control"
+            ],
+            "famousPractitioners": [
+                ["Roger Gracie", "https://www.bjjheroes.com/bjj-fighters/roger-gracie-bio"],
+                ["Demian Maia","https://www.bjjheroes.com/bjj-fighters/demian-maia-fighter-wiki"],
+                ["Xande Ribeiro","https://www.bjjheroes.com/bjj-fighters/xande-ribeiro-fighter-wiki"],
+                ["Leandro Lo", "https://www.bjjheroes.com/bjj-fighters/leandro-lo-pereira"]
+            ],
+            "moveCurriculum": [
+                "Closed Guard Posture control with Head and Arm - Overview",
+                "Side Control to Mount Transition",
+                "Turtle Position to Back Mount",
+                "Mount: Kata Gatame (Head and arm choke)",
+                "Sliding Collar Choke",
+                "Half Guard: Pass to Mount (7 point pass)",
+                "Side Control: North South Choke",
+                "Closed Guard Collar and Elbow Control - Triangle Choke"
+            ]
+        }
+    ]
+}

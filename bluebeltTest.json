@@ -1,0 +1,2974 @@
+[
+    {
+        "title": "Front Headlock Go Behind",
+        "transitionTo": [
+            "Back Control"
+        ],
+        "position": "Front Headlock",
+        "category": "Back Attack",
+        "description": "Technique to move from front headlock to back control",
+        "starting grips": "Front Headlock",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "Secure a tight front headlock position with one arm around the opponent's head and your other hand controlling their far arm."
+            },
+            {
+                "order": 2,
+                "description": "Step your lead foot back, creating space between you and your opponent."
+            },
+            {
+                "order": 3,
+                "description": "Quickly circle around to your opponent's back, maintaining control of their head and arm."
+            },
+            {
+                "order": 4,
+                "description": "As you move behind them, release the headlock and slide your arm under their near armpit."
+            },
+            {
+                "order": 5,
+                "description": "Establish back control by securing your hooks (feet inside their thighs) and applying a seatbelt grip around their upper body."
+            }
+        ],
+        "Gi?": "Both",
+        "media": true,
+        "mediaObject": {
+            "gif": "./public/media/gifs/Attacking the Back Front Headlock Go Behind.gif",
+            "imageSmall": "public/media/images/Attacking the Back Front Headlock Go-Behind.png",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Turtle Position to Back Mount",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Turtle Top",
+        "category": "Back Attack",
+        "description": "Transition from controlling the turtle position to taking the back mount",
+        "starting grips": "Turtle Control",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From the turtle control position, secure a seatbelt grip around your opponent's upper body. One arm should be under their armpit, and the other over their shoulder."
+            },
+            {
+                "order": 2,
+                "description": "Use your chest to apply pressure on your opponent's back, keeping them in the turtle position. Simultaneously, slide your knee on the under-hook side into their armpit."
+            },
+            {
+                "order": 3,
+                "description": "Lift your opponent's hips by pulling up on the seatbelt grip and driving your knee forward. This will create space to insert your first hook (foot inside their thigh)."
+            },
+            {
+                "order": 4,
+                "description": "As your opponent's balance is compromised, quickly insert your second hook on the opposite side. Keep your chest pressure to prevent them from rolling."
+            },
+            {
+                "order": 5,
+                "description": "Squeeze your knees together to secure the position, flatten your opponent onto their stomach, and adjust your seatbelt grip for optimal control in the back mount position."
+            }
+        ],
+        "Gi?": "Both",
+        "media": true,
+        "mediaObject": {
+            "gif": "public/media/gifs/Attacking the Back Turtle Position to Back Mount.gif",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Sliding Collar Choke",
+        "transitionTo": [],
+        "position": "Back Mount",
+        "category": "Submission",
+        "description": "Execute a sliding collar choke from the back mount position",
+        "starting grips": "Back Mount Control",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From the back mount position with a seatbelt grip, use your top hand to grab the collar on the far side of your opponent's neck. Your thumb should be inside the collar, fingers out."
+            },
+            {
+                "order": 2,
+                "description": "Slide this grip deep into the collar, aiming to get your hand past your opponent's far ear. Keep your elbow tight to their back to prevent defense."
+            },
+            {
+                "order": 3,
+                "description": "Bring your second hand under your first arm and grab the near side of the collar. Again, thumb in, fingers out."
+            },
+            {
+                "order": 4,
+                "description": "Pull both hands towards you, creating tension in the collar. Your elbows should be pointing down, not flared out."
+            },
+            {
+                "order": 5,
+                "description": "To finish, slide your second hand up towards your first hand while pulling both hands towards your chest. Simultaneously, arch your back and squeeze your elbows together to increase pressure."
+            }
+        ],
+        "Gi?": "Gi",
+        "media": true,
+        "mediaObject": {
+            "gif": "public/media/gifs/Back Mount Sliding Collar Choke.gif",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount to Back Mount and Rear Naked Choke",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Mount",
+        "category": "Transition",
+        "description": "Transition from mount to back mount and apply a rear naked choke",
+        "starting grips": "Mount Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Scissor Sweep",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Closed Guard Bottom: Collar and Elbow Control",
+        "category": "Sweep",
+        "description": "Execute a scissor sweep from closed guard using collar and elbow control",
+        "starting grips": "Collar and Elbow",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From closed guard, establish a cross collar grip with one hand and a same-side sleeve grip with your other hand."
+            },
+            {
+                "order": 2,
+                "description": "Open your guard and place the foot on the sleeve-grip side on your opponent's hip. Your other leg should be bent with the foot on the mat."
+            },
+            {
+                "order": 3,
+                "description": "Pull on the collar to bring your opponent forward, disrupting their balance. Simultaneously, push their arm across their body using your sleeve grip."
+            },
+            {
+                "order": 4,
+                "description": "As you pull and push, swing your leg from their hip across their body, placing your shin across their midsection. Your other leg should come up behind their back."
+            },
+            {
+                "order": 5,
+                "description": "Use your grips to pull your opponent towards the side of your leg that's across their body. At the same time, push with your shin and lift with your leg behind their back to sweep them over."
+            }
+        ],
+        "Gi?": "Gi",
+        "media": true,
+        "mediaObject": {
+            "gif": "public/media/gifs/Closed Guard Collar and Elbow Control Scissor Sweep.gif",
+            "imageSmall": "public/media/images/Closed Guard Collar and Elbow Control Scissor Sweep (1).png",
+            "imageLarge": "public/media/images/Closed Guard Collar and Elbow Control Scissor Sweep (2).png"
+        }
+    },
+    {
+        "title": "Shoulder Trap Armbar",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom: Collar and Elbow Control",
+        "category": "Submission",
+        "description": "Apply an armbar from closed guard using collar and elbow control",
+        "starting grips": "Collar and Elbow",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From closed guard, secure a cross collar grip with one hand and a same-side sleeve grip with your other hand. Ensure your collar grip is deep with your thumb inside the collar."
+            },
+            {
+                "order": 2,
+                "description": "Use your collar grip to pull your opponent forward, breaking their posture. Simultaneously, push their arm across their body using your sleeve grip."
+            },
+            {
+                "order": 3,
+                "description": "As your opponent's posture breaks, quickly release your collar grip and wrap that arm over their shoulder and behind their head, trapping their shoulder."
+            },
+            {
+                "order": 4,
+                "description": "Open your guard and slide your hips out to the side of the trapped arm. Your leg on the same side as the trapped arm should come up high on your opponent's back."
+            },
+            {
+                "order": 5,
+                "description": "Swing your other leg over your opponent's head to set up the armbar. Pinch your knees together, lie back, and extend your hips to finish the armbar submission."
+            }
+        ],
+        "Gi?": "Gi",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Triangle Choke",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom: Collar and Elbow Control",
+        "category": "Submission",
+        "description": "Apply a triangle choke from closed guard using collar and elbow control",
+        "starting grips": "Collar and Elbow",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "Grip your opponent’s collar with your right hand and control their left elbow with your left hand."
+            },
+            {
+                "order": 2,
+                "description": "Pull the collar and elbow to break their posture and bring their head close to you."
+            },
+            {
+                "order": 3,
+                "description": "Place your left foot on their right hip and shoot your right leg over their neck."
+            },
+            {
+                "order": 4,
+                "description": "Grab your right shin with your left hand and lock your left leg under your right knee."
+            },
+            {
+                "order": 5,
+                "description": "Adjust the angle by pulling their head down, squeeze your knees together, and push up with your left foot to tighten and complete the choke."
+            }
+        ],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Over the Back Posture Control",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Control",
+        "description": "Control your opponent's posture in closed guard by reaching over their back",
+        "starting grips": "Over the Back",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From closed guard, reach over your opponent's back and grab their belt with one hand (let's say your right hand)."
+            },
+            {
+                "order": 2,
+                "description": "With your left hand, control your opponent's opposite sleeve to prevent them from posting and to manage their posture."
+            },
+            {
+                "order": 3,
+                "description": "Use your belt grip to pull your opponent forward, keeping your legs closed around them to break their posture."
+            },
+            {
+                "order": 4,
+                "description": "Shift your hips out slightly to the side opposite your belt grip while maintaining the pressure with your legs and grip."
+            },
+            {
+                "order": 5,
+                "description": "Use your free hand to attack, such as going for a collar choke or setting up a sweep, while keeping control with your belt grip and maintaining posture control with your legs and sleeve grip."
+            }
+        ],
+        "Gi?": "Gi Only",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Over the Back Posture Control - Head Outside Attacks",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Attack",
+        "description": "Attack options when controlling posture with head outside in closed guard",
+        "starting grips": "Over the Back",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin - Headlock Defence to Back Mount",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Escape",
+        "description": "Escape from a headlock in closed guard to take the back",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin Escape vs Arm Between the Legs",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Escape",
+        "description": "Escape when opponent pins you in closed guard with arm between the legs",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin Escape vs Hip Clamp",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Escape",
+        "description": "Escape when opponent pins you in closed guard with a hip clamp",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin vs Forearm across the Throat",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Defense",
+        "description": "Defend against opponent's forearm across your throat in closed guard",
+        "starting grips": "Defensive",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From closed guard, your opponent pins your head with one of their arms. Use both hands to control their wrist and forearm of the arm pinning your head."
+            },
+            {
+                "order": 2,
+                "description": "Open your guard and place your foot on the same side as the trapped arm onto their hip, creating a pivot point for your hips."
+            },
+            {
+                "order": 3,
+                "description": "Using your other leg, swing it out and around, elevating your hips. Simultaneously, push off their hip with your foot and begin to turn your body to face their back."
+            },
+            {
+                "order": 4,
+                "description": "Release the arm control and shoot your top arm under their armpit while bringing your other arm over their shoulder to secure a seatbelt grip or double-under hooks."
+            },
+            {
+                "order": 5,
+                "description": "Complete the transition to back mount by sliding your bottom leg through and placing both hooks in, controlling their hips with your legs."
+            }
+        ],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin: Armbar Vs Two Handed Choke",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission",
+        "description": "Apply an armbar when opponent attempts a two-handed choke in your closed guard",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture Control - Inverted Armbar",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission",
+        "description": "Apply an inverted armbar from closed guard",
+        "starting grips": "Posture Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture Control to Triangle Choke",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission",
+        "description": "Transition from posture control to a triangle choke in closed guard",
+        "starting grips": "Posture Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture control with Head and Arm - Overview",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Control",
+        "description": "Overview of controlling posture with head and arm control in closed guard",
+        "starting grips": "Head and Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture control with Head and Arm - Transition to Back Mount",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Transition",
+        "description": "Transition from closed guard with head and arm control to back mount",
+        "starting grips": "Head and Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture Overview",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Concept",
+        "description": "Overview of proper posture and positioning in closed guard",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Kneeling Posture: Flower Sweep",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a flower sweep against an opponent in kneeling posture",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Kneeling Posture: Hip Bump Sweep",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a hip bump sweep against an opponent in kneeling posture",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Standing Posture : Handstand Sweep (Lumberjack Sweep)",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a handstand sweep against a standing opponent",
+        "starting grips": "Pants or Ankles",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Standing Posture : Handstand Sweep (Lumberjack Sweep) to Step-over Armbar",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep to Submission",
+        "description": "Transition from a handstand sweep to a step-over armbar",
+        "starting grips": "Pants or Ankles",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Top: Kneeling Guard Break",
+        "transitionTo": [
+            "Open Guard"
+        ],
+        "position": "Closed Guard Top",
+        "category": "Guard Break",
+        "description": "Break the closed guard from a kneeling position",
+        "starting grips": "Inside Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Top: Stiff Arm Closed Guard Break",
+        "transitionTo": [
+            "Open Guard"
+        ],
+        "position": "Closed Guard Top",
+        "category": "Guard Break",
+        "description": "Break the closed guard using a stiff arm technique",
+        "starting grips": "Stiff Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Passing Overview: Four Foundational Guard Passes",
+        "transitionTo": [
+            "Side Control",
+            "Mount"
+        ],
+        "position": "Guard Top",
+        "category": "Concept",
+        "description": "Overview of four fundamental guard passing techniques",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Passing: Knee Cut Pass",
+        "transitionTo": [
+            "Side Control"
+        ],
+        "position": "Open Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the guard using a knee cut technique",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Passing: Leg Staple Pass",
+        "transitionTo": [
+            "Side Control"
+        ],
+        "position": "Open Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the guard using a leg staple technique",
+        "starting grips": "Leg Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Top: Straight Foot Lock",
+        "transitionTo": [],
+        "position": "Open Guard Top",
+        "category": "Submission",
+        "description": "Apply a straight foot lock from the top position",
+        "starting grips": "Foot Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Half Guard: Pass to Mount (7 point pass)",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Half Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the half guard to mount using the 7 point pass technique",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Half Guard: Pass to Side Control (Knee Cut Pass)",
+        "transitionTo": [
+            "Side Control"
+        ],
+        "position": "Half Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the half guard to side control using a knee cut pass",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard: Double Wrist Control to Overhead Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute an overhead sweep from double wrist control in open guard",
+        "starting grips": "Double Wrist Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard vs Standing: Double Wrist Control to Tripod Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a tripod sweep from double wrist control against a standing opponent",
+        "starting grips": "Double Wrist Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Half Guard Pin: Guard Recovery",
+        "transitionTo": [
+            "Full Guard"
+        ],
+        "position": "Half Guard Bottom",
+        "category": "Guard Recovery",
+        "description": "Recover full guard from a pinned half guard position",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Pin control: Overview of Dominant Positions",
+        "transitionTo": [],
+        "position": "Various",
+        "category": "Concept",
+        "description": "Overview of controlling techniques from dominant pin positions",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control to Mount Transition",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Side Control",
+        "category": "Transition",
+        "description": "Transition from side control to mount",
+        "starting grips": "Side Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Kata Gatame (Head and Arm Choke)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Apply a kata gatame (head and arm choke) from side control",
+        "starting grips": "Head and Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: North South Choke",
+        "transitionTo": [],
+        "position": "North South",
+        "category": "Submission",
+        "description": "Apply a north-south choke from the north-south position",
+        "starting grips": "Head Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Apply an armbar from side control using a head side arm grip",
+        "starting grips": "Head Side Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Transition from an armbar attempt to a kimura in side control",
+        "starting grips": "Head Side Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Headlock on the Ground (Kesa Gatame) Overview",
+        "transitionTo": [],
+        "position": "Kesa Gatame",
+        "category": "Control",
+        "description": "Overview of the headlock on the ground (kesa gatame) position",
+        "starting grips": "Headlock",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount Top Overview",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Control",
+        "description": "Overview of controlling techniques from the mount position",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Keylock (Americana / Shoulder Lock)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Apply a keylock (americana) submission from mount",
+        "starting grips": "Wrist Control",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From mount, use both hands to control one of your opponent’s wrists (let's say their right wrist) and pin it to the mat near their head. Your left hand should be gripping their wrist."
+            },
+            {
+                "order": 2,
+                "description": "Slide your right hand under their arm and grab your own wrist, forming a figure-four lock with their arm."
+            },
+            {
+                "order": 3,
+                "description": "Ensure your opponent's elbow is bent at a 90-degree angle and their knuckles are flat against the mat."
+            },
+            {
+                "order": 4,
+                "description": "Begin to lift their elbow off the mat while keeping their wrist and knuckles pinned down. This isolates their shoulder joint."
+            },
+            {
+                "order": 5,
+                "description": "Apply the submission by gradually pulling their elbow toward their head while lifting it off the mat. Maintain control and pressure until your opponent taps out."
+            }
+        ],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs vertical push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Apply an armbar from mount against an opponent pushing vertically",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs lateral push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Apply an armbar from mount against an opponent pushing laterally",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    
+    {
+        "title": "Mount: Ezekiel choke",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Apply an Ezekiel choke from mount",
+        "starting grips": "Sleeve Grip",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From mount, start by dropping your chest close to your opponent's chest to maintain pressure and control their upper body."
+            },
+            {
+                "order": 2,
+                "description": "Slide one hand behind your opponent's head and neck, reaching under their head and grabbing your own sleeve or gi near the wrist with your other hand (left hand)."
+            },
+            {
+                "order": 3,
+                "description": "With your left hand free, bring it around to the front of your opponent's neck and slide it under their chin, extending your fingers."
+            },
+            {
+                "order": 4,
+                "description": "To apply the choke, use your right arm to pull your left hand deeper into their neck while simultaneously pushing your left forearm into their throat."
+            },
+            {
+                "order": 5,
+                "description": "Maintain your weight on their chest and squeeze your arms together, creating a scissoring motion to tighten the choke and finish the submission."
+            }
+        ],
+        "Gi?": "Gi",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly drills",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Drill",
+        "description": "Practice drills for maintaining and transitioning from knee on belly",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Far Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Apply an armbar on the far arm from knee on belly",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Near Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Apply an armbar on the near arm from knee on belly",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Cross Choke",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Apply a cross choke from knee on belly",
+        "starting grips": "Collar Grips",
+        "move steps": [],
+        "Gi?": "Gi",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Far Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Execute an armbar on the far arm from knee on belly position",
+        "starting grips": "Control of opponent's far arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Near Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Execute an armbar on the near arm from knee on belly position",
+        "starting grips": "Control of opponent's near arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount to Back Mount and Rear Naked Choke",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Mount",
+        "category": "Position Transition, Submission",
+        "description": "Transition from mount to back mount and apply a rear naked choke",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount Top Overview",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Position Overview",
+        "description": "Overview of the mount position from the top perspective",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs lateral push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Execute an armbar from mount against an opponent pushing laterally",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs vertical push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Execute an armbar from mount against an opponent pushing vertically",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Bridge Escape",
+        "transitionTo": [
+            "Guard"
+        ],
+        "position": "Mount Bottom",
+        "category": "Escape",
+        "description": "Escape from bottom mount using a bridge technique",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Elbow/Knee Escape",
+        "transitionTo": [
+            "Half Guard",
+            "Guard"
+        ],
+        "position": "Mount Bottom",
+        "category": "Escape",
+        "description": "Escape from bottom mount using elbow and knee movement",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Kata Gatame (Arm Triangle choke)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Execute a Kata Gatame from the mount position",
+        "starting grips": "Head and arm control",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "From mount, use your hands to isolate and pin one of your opponent’s arms across their neck. You can achieve this by pushing their arm with your hand or by using your chest to move it across."
+            },
+            {
+                "order": 2,
+                "description": "Once their arm is across their neck, drop your head to the mat on the same side as the trapped arm. Your head should be close to their neck and jawline, trapping their arm in place."
+            },
+            {
+                "order": 3,
+                "description": "Slide your opposite arm (let's say your right arm) underneath their head and wrap it around their neck, reaching towards your biceps of your other arm."
+            },
+            {
+                "order": 4,
+                "description": "Join your hands together by gripping your bicep with one hand and placing your other hand on their back. Ensure that your arms form a tight triangle around their neck and their trapped arm."
+            },
+            {
+                "order": 5,
+                "description": "To complete the choke, squeeze your arms together, drop your hips low to the mat, and shift your weight towards their side, applying pressure. Hold the position until your opponent taps or you achieve the submission."
+            }
+        ],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "North South Control: Pendulum Escape (Elbows Outside) (Completed)",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "North South Bottom",
+        "category": "Escape",
+        "description": "Escape from North South position using a pendulum motion with elbows outside",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "North South Control: Spinning Escape (Elbows Inside) (Completed)",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "North South Bottom",
+        "category": "Escape",
+        "description": "Escape from North South position using a spinning motion with elbows inside",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard vs Standing: Double Wrist Control to Tripod Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard",
+        "category": "Sweep",
+        "description": "Execute a tripod sweep from open guard against a standing opponent using double wrist control",
+        "starting grips": "Double wrist control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard: Double Wrist Control to Overhead Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard",
+        "category": "Sweep",
+        "description": "Execute an overhead sweep from open guard using double wrist control",
+        "starting grips": "Double wrist control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Pin control: Overview of Dominant Positions",
+        "transitionTo": [],
+        "position": "Various",
+        "category": "Position Overview",
+        "description": "Overview of controlling various dominant pinning positions",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Self Defence in the Standing Position Overview",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Self Defense",
+        "description": "Overview of self-defense techniques from a standing position",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control to Mount Transition",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Side Control",
+        "category": "Position Transition",
+        "description": "Transition from side control to mount",
+        "starting grips": "Side control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute an armbar from side control gripping the arm on the head side",
+        "starting grips": "Head side arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Back Door (Completed)",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Escape from side control using a back door technique when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Escape to the Knees, Single Leg (Completed)",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Escape from side control to a single leg position when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Guard Recovery (Completed)",
+        "transitionTo": [
+            "Guard"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Recover guard from side control when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Running Escape (Completed)",
+        "transitionTo": [
+            "Turtle",
+            "Guard"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Escape from side control using a running technique when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+   
+    {
+        "title": "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute a Kimura from an armbar position in side control",
+        "starting grips": "Head side arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: North South Choke",
+        "transitionTo": [
+            "North South"
+        ],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute a North South choke from side control",
+        "starting grips": "Head control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Snatch single leg",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Standing",
+        "category": "Takedown",
+        "description": "Execute a snatch single leg takedown",
+        "starting grips": "None",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Snatch single leg (Outside leg finish)",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Standing",
+        "category": "Takedown",
+        "description": "Execute a snatch single leg takedown with an outside leg finish",
+        "starting grips": "Single leg control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Snatch single leg (Outside step finish)",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Standing",
+        "category": "Takedown",
+        "description": "Execute a snatch single leg takedown with an outside step finish",
+        "starting grips": "Single leg control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Standing Grip Break Vs Wrist Control (Same side, Cross Grip, 2 on 1)",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Grip Fighting",
+        "description": "Break various standing grips including same side, cross grip, and 2-on-1",
+        "starting grips": "Opponent's wrist control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Standing Guillotine Defence",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Submission Defense",
+        "description": "Defend against a standing guillotine choke attempt",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Standing High-elbow Guillotine",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Submission",
+        "description": "Execute a high-elbow guillotine choke from a standing position",
+        "starting grips": "Head and arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Submission Defence: Closed Guard Guillotine",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission Defense",
+        "description": "Defend against a guillotine choke attempt from closed guard bottom",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "High Step Escape",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "Back Mount Bottom",
+        "category": "Escape",
+        "description": "Escape from back mount using a high step technique to create space and potentially recover guard or half guard",
+        "starting grips": "Defensive hand fighting",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "Protect your neck and defend against choke attempts by keeping your chin tucked and using your hands to block collar grips or defend your neck."
+            },
+            {
+                "order": 2,
+                "description": "Create space by pushing opponent's hooks (feet) away from your hips using your legs. Focus on one side at a time."
+            },
+            {
+                "order": 3,
+                "description": "High step one leg over your opponent's leg on the same side you created space. This leg should come up and over their thigh."
+            },
+            {
+                "order": 4,
+                "description": "Bridge your hips up and turn your body towards the side you stepped over. Use the momentum to start rolling to your side."
+            },
+            {
+                "order": 5,
+                "description": "Continue the turning motion until you're facing your opponent. As you turn, work to establish either a full guard or half guard position."
+            }
+        ],
+        "Gi?": "Both",
+        "media": true,
+        "mediaObject": {
+            "gif": "public/media/gifs/Back Mount High Step Escape.gif",
+            "imageSmall": "back-mount-high-step-escape-small.jpg",
+            "imageLarge": "back-mount-high-step-escape-large.jpg"
+        }
+    },
+    {
+        "title": "Back to Floor Escape",
+        "transitionTo": [
+            "Half Guard",
+            "Closed Guard"
+        ],
+        "position": "Back Mount Bottom",
+        "category": "Escape",
+        "description": "Escape from back mount by getting your back to the floor, then turning into your opponent to recover guard",
+        "starting grips": "Defensive hand fighting",
+        "move steps": [
+            {
+                "order": 1,
+                "description": "Protect your neck by tucking your chin and defending against chokes. Identify your opponent's overarm (the arm over your shoulder) as your primary target for clearing."
+            },
+            {
+                "order": 2,
+                "description": "Turn slightly to the side opposite of your opponent's overarm. Simultaneously, use both hands to grip and clear their overarm, pulling it down across your chest."
+            },
+            {
+                "order": 3,
+                "description": "With the overarm cleared, quickly turn further to bring your shoulder and then your back to the mat. Use the mat to help scrape off your opponent's chest connection while maintaining control of their cleared arm."
+            },
+            {
+                "order": 4,
+                "description": "As your back hits the mat, immediately use your legs to control your opponent's hooks. Bridge your hips and start turning into your opponent to come on top."
+            },
+            {
+                "order": 5,
+                "description": "Complete the turn to face your opponent, establishing either half guard or closed guard depending on your leg position and your opponent's reaction. Maintain defensive hand position to prevent them from regaining back control."
+            }
+        ],
+        "Gi?": "Both",
+        "media": true,
+        "mediaObject": {
+            "gif": "public/media/gifs/Back Mount Back to Floor Escape.gif",
+            "imageSmall": "back-mount-back-to-floor-escape-small.jpg",
+            "imageLarge": "back-mount-back-to-floor-escape-large.jpg"
+        }
+    },
+    {
+        "title": "Takedown Defense: Sprawl vs Double Leg Takedown",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Takedown Defense",
+        "description": "Defend against a double leg takedown using a sprawl",
+        "starting grips": "None",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Takedown Defense: Sprawl vs Single Leg Takedown",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Takedown Defense",
+        "description": "Defend against a single leg takedown using a sprawl",
+        "starting grips": "None",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Turtle Position - Bottom: Guard Recovery Escape",
+        "transitionTo": [
+            "Guard"
+        ],
+        "position": "Turtle",
+        "category": "Escape",
+        "description": "Escape from bottom turtle position to guard",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Turtle Position Overview",
+        "transitionTo": [],
+        "position": "Turtle",
+        "category": "Position Overview",
+        "description": "Overview of the turtle position, including defensive and offensive strategies",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Over the Back Posture Control - Head Outside Attacks",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Attack",
+        "description": "Attack options when controlling posture with head outside in closed guard",
+        "starting grips": "Over the Back",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin - Headlock Defence to Back Mount",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Escape",
+        "description": "Escape from a headlock in closed guard to take the back",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin Escape vs Arm Between the Legs",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Escape",
+        "description": "Escape when opponent pins you in closed guard with arm between the legs",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin Escape vs Hip Clamp",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Escape",
+        "description": "Escape when opponent pins you in closed guard with a hip clamp",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Pin vs Forearm across the Throat",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Defense",
+        "description": "Defend against opponent's forearm across your throat in closed guard",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture Control - Inverted Armbar",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission",
+        "description": "Apply an inverted armbar from closed guard",
+        "starting grips": "Posture Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture Control to Triangle Choke",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission",
+        "description": "Transition from posture control to a triangle choke in closed guard",
+        "starting grips": "Posture Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture control with Head and Arm - Overview",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Control",
+        "description": "Overview of controlling posture with head and arm control in closed guard",
+        "starting grips": "Head and Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture control with Head and Arm - Transition to Back Mount",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Transition",
+        "description": "Transition from closed guard with head and arm control to back mount",
+        "starting grips": "Head and Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Posture Overview",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Concept",
+        "description": "Overview of proper posture and positioning in closed guard",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Kneeling Posture: Flower Sweep",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a flower sweep against an opponent in kneeling posture",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Kneeling Posture: Hip Bump Sweep",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a hip bump sweep against an opponent in kneeling posture",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Standing Posture : Handstand Sweep (Lumberjack Sweep)",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a handstand sweep against a standing opponent",
+        "starting grips": "Pants or Ankles",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard vs Standing Posture : Handstand Sweep (Lumberjack Sweep) to Step-over Armbar",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Sweep to Submission",
+        "description": "Transition from a handstand sweep to a step-over armbar",
+        "starting grips": "Pants or Ankles",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Top: Kneeling Guard Break",
+        "transitionTo": [
+            "Open Guard"
+        ],
+        "position": "Closed Guard Top",
+        "category": "Guard Break",
+        "description": "Break the closed guard from a kneeling position",
+        "starting grips": "Inside Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Closed Guard Top: Stiff Arm Closed Guard Break",
+        "transitionTo": [
+            "Open Guard"
+        ],
+        "position": "Closed Guard Top",
+        "category": "Guard Break",
+        "description": "Break the closed guard using a stiff arm technique",
+        "starting grips": "Stiff Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Passing Overview: Four Foundational Guard Passes",
+        "transitionTo": [
+            "Side Control",
+            "Mount"
+        ],
+        "position": "Guard Top",
+        "category": "Concept",
+        "description": "Overview of four fundamental guard passing techniques",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Passing: Knee Cut Pass",
+        "transitionTo": [
+            "Side Control"
+        ],
+        "position": "Open Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the guard using a knee cut technique",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Passing: Leg Staple Pass",
+        "transitionTo": [
+            "Side Control"
+        ],
+        "position": "Open Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the guard using a leg staple technique",
+        "starting grips": "Leg Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Guard Top: Straight Foot Lock",
+        "transitionTo": [],
+        "position": "Open Guard Top",
+        "category": "Submission",
+        "description": "Apply a straight foot lock from the top position",
+        "starting grips": "Foot Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Half Guard: Pass to Mount (7 point pass)",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Half Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the half guard to mount using the 7 point pass technique",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Half Guard: Pass to Side Control (Knee Cut Pass)",
+        "transitionTo": [
+            "Side Control"
+        ],
+        "position": "Half Guard Top",
+        "category": "Guard Pass",
+        "description": "Pass the half guard to side control using a knee cut pass",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard: Double Wrist Control to Overhead Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute an overhead sweep from double wrist control in open guard",
+        "starting grips": "Double Wrist Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard vs Standing: Double Wrist Control to Tripod Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard Bottom",
+        "category": "Sweep",
+        "description": "Execute a tripod sweep from double wrist control against a standing opponent",
+        "starting grips": "Double Wrist Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Half Guard Pin: Guard Recovery",
+        "transitionTo": [
+            "Full Guard"
+        ],
+        "position": "Half Guard Bottom",
+        "category": "Guard Recovery",
+        "description": "Recover full guard from a pinned half guard position",
+        "starting grips": "Defensive",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Pin control: Overview of Dominant Positions",
+        "transitionTo": [],
+        "position": "Various",
+        "category": "Concept",
+        "description": "Overview of controlling techniques from dominant pin positions",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control to Mount Transition",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Side Control",
+        "category": "Transition",
+        "description": "Transition from side control to mount",
+        "starting grips": "Side Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Kata Gatame (Head and Arm Choke)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Apply a kata gatame (head and arm choke) from side control",
+        "starting grips": "Head and Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: North South Choke",
+        "transitionTo": [],
+        "position": "North South",
+        "category": "Submission",
+        "description": "Apply a north-south choke from the north-south position",
+        "starting grips": "Head Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Apply an armbar from side control using a head side arm grip",
+        "starting grips": "Head Side Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Transition from an armbar attempt to a kimura in side control",
+        "starting grips": "Head Side Arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Headlock on the Ground (Kesa Gatame) Overview",
+        "transitionTo": [],
+        "position": "Kesa Gatame",
+        "category": "Control",
+        "description": "Overview of the headlock on the ground (kesa gatame) position",
+        "starting grips": "Headlock",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount Top Overview",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Control",
+        "description": "Overview of controlling techniques from the mount position",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs vertical push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Apply an armbar from mount against an opponent pushing vertically",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs lateral push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Apply an armbar from mount against an opponent pushing laterally",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly drills",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Drill",
+        "description": "Practice drills for maintaining and transitioning from knee on belly",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Far Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Apply an armbar on the far arm from knee on belly",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Near Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Apply an armbar on the near arm from knee on belly",
+        "starting grips": "Arm Control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Cross Choke",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Apply a cross choke from knee on belly",
+        "starting grips": "Collar Grips",
+        "move steps": [],
+        "Gi?": "Gi",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Far Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Execute an armbar on the far arm from knee on belly position",
+        "starting grips": "Control of opponent's far arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Knee on belly: Near Armbar",
+        "transitionTo": [],
+        "position": "Knee on Belly",
+        "category": "Submission",
+        "description": "Execute an armbar on the near arm from knee on belly position",
+        "starting grips": "Control of opponent's near arm",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount to Back Mount and Rear Naked Choke",
+        "transitionTo": [
+            "Back Mount"
+        ],
+        "position": "Mount",
+        "category": "Position Transition, Submission",
+        "description": "Transition from mount to back mount and apply a rear naked choke",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount Top Overview",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Position Overview",
+        "description": "Overview of the mount position from the top perspective",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs lateral push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Execute an armbar from mount against an opponent pushing laterally",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Armbar vs Instinctive Opp (vs vertical push)",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Execute an armbar from mount against an opponent pushing vertically",
+        "starting grips": "Mount control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Bridge Escape",
+        "transitionTo": [
+            "Guard"
+        ],
+        "position": "Mount Bottom",
+        "category": "Escape",
+        "description": "Escape from bottom mount using a bridge technique",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Elbow/Knee Escape",
+        "transitionTo": [
+            "Half Guard",
+            "Guard"
+        ],
+        "position": "Mount Bottom",
+        "category": "Escape",
+        "description": "Escape from bottom mount using elbow and knee movement",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Mount: Ezekiel choke",
+        "transitionTo": [],
+        "position": "Mount",
+        "category": "Submission",
+        "description": "Execute an Ezekiel choke from the mount position",
+        "starting grips": "Collar grip",
+        "move steps": [],
+        "Gi?": "Gi",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    
+    {
+        "title": "North South Control: Pendulum Escape (Elbows Outside)",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "North South Bottom",
+        "category": "Escape",
+        "description": "Escape from North South position using a pendulum motion with elbows outside",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "North South Control: Spinning Escape (Elbows Inside)",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "North South Bottom",
+        "category": "Escape",
+        "description": "Escape from North South position using a spinning motion with elbows inside",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Open Guard: Double Wrist Control to Overhead Sweep",
+        "transitionTo": [
+            "Top Position"
+        ],
+        "position": "Open Guard",
+        "category": "Sweep",
+        "description": "Execute an overhead sweep from open guard using double wrist control",
+        "starting grips": "Double wrist control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Pin control: Overview of Dominant Positions",
+        "transitionTo": [],
+        "position": "Various",
+        "category": "Position Overview",
+        "description": "Overview of controlling various dominant pinning positions",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false
+    },
+    {
+        "title": "Self Defence in the Standing Position Overview",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Self Defense",
+        "description": "Overview of self-defense techniques from a standing position",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control to Mount Transition",
+        "transitionTo": [
+            "Mount"
+        ],
+        "position": "Side Control",
+        "category": "Position Transition",
+        "description": "Transition from side control to mount",
+        "starting grips": "Side control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute an armbar from side control gripping the arm on the head side",
+        "starting grips": "Head side arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Back Door",
+        "transitionTo": [
+            "Guard",
+            "Half Guard"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Escape from side control using a back door technique when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Escape to the Knees, Single Leg",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Escape from side control to a single leg position when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Guard Recovery",
+        "transitionTo": [
+            "Guard"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Recover guard from side control when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Escape Head and Arm Control - Running Escape",
+        "transitionTo": [
+            "Turtle",
+            "Guard"
+        ],
+        "position": "Side Control Bottom",
+        "category": "Escape",
+        "description": "Escape from side control using a running technique when opponent has head and arm control",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Kata Gatame (Head and Arm Choke)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute a Kata Gatame (head and arm choke) from side control",
+        "starting grips": "Head and arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+        "transitionTo": [],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute a Kimura from an armbar position in side control",
+        "starting grips": "Head side arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Side Control: North South Choke",
+        "transitionTo": [
+            "North South"
+        ],
+        "position": "Side Control",
+        "category": "Submission",
+        "description": "Execute a North South choke from side control",
+        "starting grips": "Head control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Snatch single leg",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Standing",
+        "category": "Takedown",
+        "description": "Execute a snatch single leg takedown",
+        "starting grips": "None",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Snatch single leg (Outside leg finish)",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Standing",
+        "category": "Takedown",
+        "description": "Execute a snatch single leg takedown with an outside leg finish",
+        "starting grips": "Single leg control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Snatch single leg (Outside step finish)",
+        "transitionTo": [
+            "Single Leg"
+        ],
+        "position": "Standing",
+        "category": "Takedown",
+        "description": "Execute a snatch single leg takedown with an outside step finish",
+        "starting grips": "Single leg control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Standing Grip Break Vs Wrist Control (Same side, Cross Grip, 2 on 1)",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Grip Fighting",
+        "description": "Break various standing grips including same side, cross grip, and 2-on-1",
+        "starting grips": "Opponent's wrist control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Standing Guillotine Defence",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Submission Defense",
+        "description": "Defend against a standing guillotine choke attempt",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Standing High-elbow Guillotine",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Submission",
+        "description": "Execute a high-elbow guillotine choke from a standing position",
+        "starting grips": "Head and arm control",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Submission Defence: Closed Guard Guillotine",
+        "transitionTo": [],
+        "position": "Closed Guard Bottom",
+        "category": "Submission Defense",
+        "description": "Defend against a guillotine choke attempt from closed guard bottom",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Takedown Defense: Sprawl vs Double Leg Takedown",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Takedown Defense",
+        "description": "Defend against a double leg takedown using a sprawl",
+        "starting grips": "None",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Takedown Defense: Sprawl vs Single Leg Takedown",
+        "transitionTo": [],
+        "position": "Standing",
+        "category": "Takedown Defense",
+        "description": "Defend against a single leg takedown using a sprawl",
+        "starting grips": "None",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Turtle Position - Bottom: Guard Recovery Escape",
+        "transitionTo": [
+            "Guard"
+        ],
+        "position": "Turtle",
+        "category": "Escape",
+        "description": "Escape from bottom turtle position to guard",
+        "starting grips": "Defensive posture",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    },
+    {
+        "title": "Turtle Position Overview",
+        "transitionTo": [],
+        "position": "Turtle",
+        "category": "Position Overview",
+        "description": "Overview of the turtle position, including defensive and offensive strategies",
+        "starting grips": "Various",
+        "move steps": [],
+        "Gi?": "Both",
+        "media": false,
+        "mediaObject": {
+            "gif": "",
+            "imageSmall": "",
+            "imageLarge": ""
+        }
+    }
+]

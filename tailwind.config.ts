@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        dojoRed: '#b91c1c',
+        dojoBlack: '#0f172a',
+        dojoGold: '#fbbf24',
+        dojoWhite: '#f8fafc',
+        correctGreen: '#4CAF50',
+        incorrectRed: '#FF0000',
+      },
+      fontFamily: {
+        dojo: ['"Karate", sans-serif'],
       },
     },
   },
