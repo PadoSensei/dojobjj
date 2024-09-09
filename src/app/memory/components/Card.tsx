@@ -52,7 +52,7 @@ export default function Card({ card, isFlipped, onClick }) {
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300" />
               </div>
               <div className="absolute bottom-0 w-full h-1/5 p-1 sm:p-2 bg-blue-500">
-                <h3 className="text-white text-xs sm:text-sm font-semibold truncate line-clamp-2 leading-tight">
+                <h3 className="text-white text-xs sm:text-sm font-semibold line-clamp-2 leading-tight">
                   {card.title}
                 </h3>
               </div>
