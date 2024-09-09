@@ -84,7 +84,7 @@ export default function Styles() {
                                 </ul>
                             </div>
                             <div className="mb-6">
-                                <h3 className="text-xl font-semibold text-dojoRed mb-2">Famous Practitioners:</h3>
+                                <h3 className="text-xl font-semibold text-dojoRed mb-2">Famous {currentStyle.name} Practitioners:</h3>
                                 <ul className="list-disc list-inside">
                                     {currentStyle.famousPractitioners.map(([name, link], index) => (
                                         <li key={index} >
@@ -96,7 +96,7 @@ export default function Styles() {
                                 </ul>
                             </div>
                             <div>
-                                <h3 className="text-xl font-semibold text-dojoRed mb-2">Move Curriculum:</h3>
+                                <h3 className="text-xl font-semibold text-dojoRed mb-2">The {currentStyle.name} Curriculum:</h3>
                                 {Object.entries(categorizeMoves(currentStyle.moveCurriculum)).map(([category, moves]) =>
                                     renderMoveCategory(category, moves)
                                 )}

@@ -20,7 +20,7 @@ export function useGameLogic(movesData) {
     const movesWithMedia = movesData.filter(move => move.media === true);
     console.log('Moves with media:', movesWithMedia.length);
 
-    const gameMoves = shuffleArray(movesWithMedia).slice(0, 3);
+    const gameMoves = shuffleArray(movesWithMedia).slice(0, 5);
     console.log('Game moves:', gameMoves);
     const gameCards = shuffleArray([...gameMoves, ...gameMoves]).map((move, index) => ({
       ...move,

@@ -18,16 +18,17 @@ export default function Card({ card, isFlipped, onClick }) {
 
   return (
     <div
-      className="group relative w-full aspect-[3/4] rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105"
+      className="group relative w-full aspect-[3/4] rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-102 active:scale-98"
       onClick={onClick}
     >
       <div
-        className={`absolute inset-0 w-full h-full transition-transform duration-500 ${isFlipped ? 'rotate-y-180' : ''
-          } preserve-3d`}
+        className={`absolute inset-0 w-full h-full transition-transform duration-500 ${
+          isFlipped ? 'rotate-y-180' : ''
+        } preserve-3d`}
       >
         {/* Front of card */}
         <div className="absolute inset-0 backface-hidden bg-blue-300">
-          <div className="w-full h-full flex items-center justify-center text-white text-4xl font-bold">
+          <div className="w-full h-full flex items-center justify-center text-white text-2xl sm:text-4xl font-bold">
             ?
           </div>
         </div>
@@ -36,7 +37,7 @@ export default function Card({ card, isFlipped, onClick }) {
         <div className="absolute inset-0 backface-hidden rotate-y-180 bg-white">
           {publicImage ? (
             <>
-              <div className="relative w-full h-3/4">
+              <div className="relative w-full h-4/5">
                 <Image
                   src={`/media/images/${card.title}.png`}
                   alt={card.title}
@@ -50,12 +51,14 @@ export default function Card({ card, isFlipped, onClick }) {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-opacity duration-300" />
               </div>
-              <div className="absolute bottom-0 w-full h-1/4 p-2 bg-blue-500">
-                <h3 className="text-white text-sm font-semibold line-clamp-2">{card.title}</h3>
+              <div className="absolute bottom-0 w-full h-1/5 p-1 sm:p-2 bg-blue-500">
+                <h3 className="text-white text-xs sm:text-sm font-semibold truncate line-clamp-2 leading-tight">
+                  {card.title}
+                </h3>
               </div>
             </>
           ) : (
-            <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400 text-lg font-semibold">
+            <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400 text-sm sm:text-lg font-semibold p-2 text-center">
               Image not available
             </div>
           )}

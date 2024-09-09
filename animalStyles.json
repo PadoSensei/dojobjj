@@ -389,6 +389,81 @@
                 "Side Control: North South Choke",
                 "Closed Guard Collar and Elbow Control - Triangle Choke"
             ]
-        }
+        },
+        {
+            "name": "Honey Badger",
+            "description": "The Honey Badger style in BJJ is characterized by relentless aggression and fearlessness. Practitioners of this style are known for their tenacity, willingness to engage in any position, and ability to push through adversity.",
+            "characteristics": [
+              "Extremely aggressive and fearless approach",
+              "High pain tolerance and durability",
+              "Excels in scrambles and chaotic situations",
+              "Thrives in high-pressure competitions"
+            ],
+            "famousPractitioners": [
+              ["Kron Gracie", "https://www.bjjheroes.com/bjj-fighters/kron-gracie"],
+              ["Ricardo Arona", "https://www.bjjheroes.com/bjj-fighters/ricardo-aronas-fighter-profile"],
+              ["AJ Agazarm", "https://www.bjjheroes.com/bjj-fighters/aj-agazarm"]
+            ],
+            "moveCurriculum": [
+              "Double Leg Takedown",
+              "Guard Passing: Leg Staple Pass",
+              "Standing High-elbow Guillotine",
+              "Front Headlock Go Behind",
+              "Mount: Ezekiel choke",
+              "Closed Guard vs Kneeling Posture: Hip Bump Sweep",
+              "Knee on belly drills",
+              "Side Control: Kata Gatame (Head and Arm Choke)"
+            ]
+          },
+          {
+            "name": "Fox",
+            "description": "The Fox style in BJJ emphasizes cunning, strategy, and misdirection. Practitioners of this style are known for their ability to set traps, use feints effectively, and capitalize on their opponent's mistakes.",
+            "characteristics": [
+              "Highly strategic and cerebral approach",
+              "Excels at creating and exploiting openings",
+              "Uses misdirection and feints effectively",
+              "Adapts quickly to opponent's strategies"
+            ],
+            "famousPractitioners": [
+              ["Rubens Charles 'Cobrinha'", "https://www.bjjheroes.com/bjj-fighters/rubens-charles-cobrinha-bjj-fighter-wiki"],
+              ["Mikey Musumeci", "https://www.bjjheroes.com/bjj-fighters/mikey-musumeci"],
+              ["Ffion Davies", "https://www.bjjheroes.com/bjj-fighters/ffion-davies"]
+            ],
+            "moveCurriculum": [
+              "Open Guard: Double Wrist Control to Overhead Sweep",
+              "Closed Guard Collar and Elbow Control - Triangle Choke",
+              "Closed Guard vs Standing Posture: Handstand Sweep (Lumberjack Sweep) to Step-over Armbar",
+              "Guard Passing Overview: Four Foundational Guard Passes",
+              "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)",
+              "Closed Guard Pin: Armbar Vs Two Handed Choke",
+              "Turtle Position - Bottom: Guard Recovery Escape",
+              "Mount to Back Mount and Rear Naked Choke"
+            ]
+          },
+          {
+            "name": "Elephant",
+            "description": "The Elephant style in BJJ focuses on using superior size and weight distribution to control opponents. Practitioners of this style excel at applying heavy pressure from top positions and using their weight to exhaust opponents.",
+            "characteristics": [
+              "Masterful use of weight distribution",
+              "Overwhelming top pressure",
+              "Specializes in pinning and control",
+              "Patient, methodical approach to submissions"
+            ],
+            "famousPractitioners": [
+              ["Marcus 'Buchecha' Almeida", "https://www.bjjheroes.com/bjj-fighters/marcus-almeida-buchecha-bjj-fighter-wiki"],
+              ["Roberto 'Cyborg' Abreu", "https://www.bjjheroes.com/bjj-fighters/roberto-cyborg-abreu-bjj-fighter-wiki"],
+              ["Andre Galvao", "https://www.bjjheroes.com/bjj-fighters/andre-galvao"]
+            ],
+            "moveCurriculum": [
+              "Closed Guard Top: Stiff Arm Closed Guard Break",
+              "Guard Passing: Knee Cut Pass",
+              "Half Guard: Pass to Mount (7 point pass)",
+              "Side Control to Mount Transition",
+              "Mount Top Overview",
+              "Knee on belly: Cross Choke",
+              "Headlock on the Ground (Kesa Gatame) Overview",
+              "Side Control: North South Choke"
+            ]
+          }
     ]
 }
