@@ -1,0 +1,199 @@
+{
+    "storyTitle": "The BJJ Tournament Challenge",
+    "introduction": "Welcome to the BJJ Tournament Challenge! You've been training hard, embodying the {animalStyle} style. Today, you'll face a tough opponent in a tournament match. Your choices will determine the outcome. Remember, use the techniques that align with your {animalStyle} style for the best results!",
+    "stages": [
+      {
+        "stageName": "Standup",
+        "description": "The referee signals the start of the match. You and your opponent begin circling each other, looking for an opening.",
+        "choices": [
+          {
+            "text": "Attempt a takedown",
+            "nextStage": "takedownAttempt",
+            "requiredMove": "Double Leg Takedown"
+          },
+          {
+            "text": "Pull guard",
+            "nextStage": "guardPull",
+            "requiredMove": null
+          }
+        ]
+      },
+      {
+        "stageName": "takedownAttempt",
+        "description": "You decide to go for a takedown. Your opponent braces for impact.",
+        "choices": [
+          {
+            "text": "Execute a double leg takedown",
+            "nextStage": "guardPassing",
+            "requiredMove": "Double Leg Takedown"
+          },
+          {
+            "text": "Switch to a single leg takedown",
+            "nextStage": "guardPassing",
+            "requiredMove": "Snatch single leg (Outside leg finish)"
+          }
+        ]
+      },
+      {
+        "stageName": "guardPull",
+        "description": "You decide to pull guard, bringing your opponent into your territory.",
+        "choices": [
+          {
+            "text": "Establish closed guard",
+            "nextStage": "closedGuardBottom",
+            "requiredMove": "Closed Guard Posture Overview"
+          },
+          {
+            "text": "Transition to open guard",
+            "nextStage": "openGuardBottom",
+            "requiredMove": "Open Guard: Double Wrist Control to Overhead Sweep"
+          }
+        ]
+      },
+      {
+        "stageName": "guardPassing",
+        "description": "You've successfully taken your opponent down and now need to pass their guard.",
+        "choices": [
+          {
+            "text": "Attempt a pressure pass",
+            "nextStage": "sideControl",
+            "requiredMove": "Guard Passing: Knee Cut Pass"
+          },
+          {
+            "text": "Try a leg drag pass",
+            "nextStage": "sideControl",
+            "requiredMove": "Guard Passing: Leg Staple Pass"
+          }
+        ]
+      },
+      {
+        "stageName": "closedGuardBottom",
+        "description": "You're in closed guard, controlling your opponent's posture. What's your next move?",
+        "choices": [
+          {
+            "text": "Go for a submission",
+            "nextStage": "submissionAttempt",
+            "requiredMove": "Closed Guard Collar and Elbow Control - Triangle Choke"
+          },
+          {
+            "text": "Attempt a sweep",
+            "nextStage": "sweepAttempt",
+            "requiredMove": "Closed Guard vs Kneeling Posture: Hip Bump Sweep"
+          }
+        ]
+      },
+      {
+        "stageName": "openGuardBottom",
+        "description": "You're in open guard, using your legs to keep your opponent at bay.",
+        "choices": [
+          {
+            "text": "Look for a sweep opportunity",
+            "nextStage": "sweepAttempt",
+            "requiredMove": "Open Guard: Double Wrist Control to Overhead Sweep"
+          },
+          {
+            "text": "Transition to a submission setup",
+            "nextStage": "submissionAttempt",
+            "requiredMove": "Open Guard vs Standing: Double Wrist Control to Tripod Sweep"
+          }
+        ]
+      },
+      {
+        "stageName": "sideControl",
+        "description": "You've passed your opponent's guard and established side control. What's your strategy?",
+        "choices": [
+          {
+            "text": "Maintain position and look for submission",
+            "nextStage": "submissionAttempt",
+            "requiredMove": "Side Control: Kimura (Shoulder Lock) from Armbar (Head Side Arm Grip)"
+          },
+          {
+            "text": "Transition to mount",
+            "nextStage": "mount",
+            "requiredMove": "Side Control to Mount Transition"
+          }
+        ]
+      },
+      {
+        "stageName": "sweepAttempt",
+        "description": "You see an opening for a sweep. Your opponent is slightly off-balance.",
+        "choices": [
+          {
+            "text": "Execute the sweep",
+            "nextStage": "topPosition",
+            "requiredMove": "Closed Guard vs Kneeling Posture: Hip Bump Sweep"
+          },
+          {
+            "text": "Fake the sweep and go for a submission",
+            "nextStage": "submissionAttempt",
+            "requiredMove": "Closed Guard Collar and Elbow Control - Triangle Choke"
+          }
+        ]
+      },
+      {
+        "stageName": "mount",
+        "description": "You've achieved mount position. Your opponent is defending tightly.",
+        "choices": [
+          {
+            "text": "Apply pressure and look for a submission",
+            "nextStage": "submissionAttempt",
+            "requiredMove": "Mount: Armbar vs Instinctive Opp (vs lateral push)"
+          },
+          {
+            "text": "Transition to technical mount",
+            "nextStage": "technicalMount",
+            "requiredMove": "Mount Top Overview"
+          }
+        ]
+      },
+      {
+        "stageName": "submissionAttempt",
+        "description": "You see an opening for a submission. It's time to end this match!",
+        "choices": [
+          {
+            "text": "Go for a choke",
+            "nextStage": "victoryChoke",
+            "requiredMove": "Sliding Collar Choke"
+          },
+          {
+            "text": "Attempt an armbar",
+            "nextStage": "victoryArmbar",
+            "requiredMove": "Closed Guard Pin: Armbar Vs Two Handed Choke"
+          }
+        ]
+      },
+      {
+        "stageName": "victoryChoke",
+        "description": "You apply the choke with precision. Your opponent taps out!",
+        "choices": [
+          {
+            "text": "Celebrate your victory!",
+            "nextStage": "endOfMatch",
+            "requiredMove": null
+          }
+        ]
+      },
+      {
+        "stageName": "victoryArmbar",
+        "description": "You secure the armbar and apply pressure. Your opponent taps out!",
+        "choices": [
+          {
+            "text": "Celebrate your victory!",
+            "nextStage": "endOfMatch",
+            "requiredMove": null
+          }
+        ]
+      },
+      {
+        "stageName": "endOfMatch",
+        "description": "Congratulations! You've won the match using your {animalStyle} style techniques. Your strategic choices and well-executed moves led you to victory!",
+        "choices": [
+          {
+            "text": "Return to main menu",
+            "nextStage": null,
+            "requiredMove": null
+          }
+        ]
+      }
+    ]
+  }
