@@ -1,7 +1,8 @@
+
+
 //@ts-nocheck
 "use client"
-// pages/study.tsx
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import Image from 'next/image';
 import moves from '../../../bluebeltTest.json';
 import { useAuth } from '../../contexts/AuthContext';
@@ -21,6 +22,37 @@ interface Move {
 type GameState = 'playing' | 'won' | 'lost';
 type BeltType = 'black' | 'brown' | 'purple' | 'blue' | 'white' | 'fail' | null;
 
+const movesWithMedia = moves.filter((move: Move) => move.media === true);
+
+const shuffleArray = (array: MoveStep[]) => {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+};
+
+const getBeltAward = (time: number): BeltType => {
+  if (time <= 10) return 'black';
+  if (time <= 20) return 'brown';
+  if (time <= 30) return 'purple';
+  if (time <= 40) return 'blue';
+  return 'white';
+};
+
+const getBeltColor = (belt: BeltType) => {
+  const colors: {[key in NonNullable<BeltType>]: string} = {
+    black: 'bg-black',
+    brown: 'bg-yellow-800',
+    purple: 'bg-purple-600',
+    blue: 'bg-blue-500',
+    white: 'bg-white border border-gray-300',
+    fail: 'bg-red-500'
+  };
+  return colors[belt as NonNullable<BeltType>] || 'bg-gray-300';
+};
+
 export default function MoveStepsGame() {
   const [currentMoveIndex, setCurrentMoveIndex] = useState(0);
   const [showGif, setShowGif] = useState(false);
@@ -32,12 +64,35 @@ export default function MoveStepsGame() {
   const [beltAwarded, setBeltAwarded] = useState<BeltType>(null);
   const { user } = useAuth();
 
-  const movesWithMedia = moves.filter((move: Move) => move.media === true);
-  const currentMove = movesWithMedia[currentMoveIndex];
+  const currentMove = useMemo(() => movesWithMedia[currentMoveIndex], [currentMoveIndex]);
+
+  const resetGame = useCallback(() => {
+    const steps = currentMove['move steps'].sort((a, b) => a.order - b.order);
+    setShuffledSteps(shuffleArray(steps));
+    setSelectedSteps([]);
+    setGameState('playing');
+    setTimeLeft(60);
+  }, [currentMove]);
+
+  const endGame = useCallback(async (result: GameState) => {
+    setGameState(result);
+    if (result === 'won') {
+      const timeSpent = 60 - timeLeft;
+      setTimeTaken(timeSpent);
+      const belt = getBeltAward(timeSpent);
+      setBeltAwarded(belt);
+      
+      if (user) {
+        await updateUserScore(user.uid, belt);
+      }
+    } else {
+      setBeltAwarded('fail');
+    }
+  }, [timeLeft, user]);
 
   useEffect(() => {
     resetGame();
-  }, [currentMoveIndex, resetGame, endGame]);
+  }, [resetGame]);
 
   useEffect(() => {
     if (gameState !== 'playing') return;
@@ -54,89 +109,38 @@ export default function MoveStepsGame() {
     }, 1000);
   
     return () => clearInterval(timer);
-  }, [gameState]);
+  }, [gameState, endGame]);
 
-  const resetGame = () => {
-    const steps = currentMove['move steps'].sort((a, b) => a.order - b.order);
-    setShuffledSteps(shuffleArray([...steps]));
-    setSelectedSteps([]);
-    setGameState('playing');
-    setTimeLeft(60);
-  };
-
-  const shuffleArray = (array: MoveStep[]) => {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  };
-
-  const handleStepClick = (step: MoveStep) => {
+  const handleStepClick = useCallback((step: MoveStep) => {
     if (gameState !== 'playing') return;
   
-    const newSelectedSteps = [...selectedSteps, step];
-    setSelectedSteps(newSelectedSteps);
-  
-    if (newSelectedSteps.length === shuffledSteps.length) {
-      const isCorrect = newSelectedSteps.every((s, index) => s.order === index + 1);
-      if (isCorrect) {
-        endGame('won');
-      } else {
-        endGame('lost');
+    setSelectedSteps((prevSteps) => {
+      const newSelectedSteps = [...prevSteps, step];
+      if (newSelectedSteps.length === shuffledSteps.length) {
+        const isCorrect = newSelectedSteps.every((s, index) => s.order === index + 1);
+        if (isCorrect) {
+          endGame('won');
+        } else {
+          endGame('lost');
+        }
       }
-    }
-  };
+      return newSelectedSteps;
+    });
+  }, [gameState, shuffledSteps.length, endGame]);
 
-  const getStepButtonClass = (step: MoveStep) => {
+  const getStepButtonClass = useCallback((step: MoveStep) => {
     if (!selectedSteps.includes(step)) return 'bg-dojoGold hover:bg-dojoGold-dark';
     if (gameState === 'playing') return 'bg-dojoBlue';
     return selectedSteps.indexOf(step) === step.order - 1 ? 'bg-green-500' : 'bg-red-500';
-  };
+  }, [selectedSteps, gameState]);
 
-  const goToNextMove = () => {
+  const goToNextMove = useCallback(() => {
     setCurrentMoveIndex((prevIndex) => (prevIndex + 1) % movesWithMedia.length);
-  };
+  }, []);
 
-  const goToPreviousMove = () => {
+  const goToPreviousMove = useCallback(() => {
     setCurrentMoveIndex((prevIndex) => (prevIndex - 1 + movesWithMedia.length) % movesWithMedia.length);
-  };
-
-  const getBeltAward = (time: number): BeltType => {
-    if (time <= 10) return 'black';
-    if (time <= 20) return 'brown';
-    if (time <= 30) return 'purple';
-    if (time <= 40) return 'blue';
-    return 'white';
-  };
-
-  const endGame = async (result: GameState) => {
-    setGameState(result);
-    if (result === 'won') {
-      const timeSpent = 60 - timeLeft;
-      setTimeTaken(timeSpent);
-      const belt = getBeltAward(timeSpent);
-      setBeltAwarded(belt);
-      
-      if (user) {
-        await updateUserScore(user.uid, belt);
-      }
-    } else {
-      setBeltAwarded('fail');
-    }
-  };
-
-  const getBeltColor = (belt: BeltType) => {
-    const colors: {[key in NonNullable<BeltType>]: string} = {
-      black: 'bg-black',
-      brown: 'bg-yellow-800',
-      purple: 'bg-purple-600',
-      blue: 'bg-blue-500',
-      white: 'bg-white border border-gray-300',
-      fail: 'bg-red-500'
-    };
-    return colors[belt as NonNullable<BeltType>] || 'bg-gray-300';
-  };
+  }, []);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-4 px-4 sm:px-6 lg:px-8 bg-dojoWhite">
