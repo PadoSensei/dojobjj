@@ -1,22 +1,38 @@
 //@ts-nocheck
 "use client"
-// pages/study.js
-
+// pages/study.tsx
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import moves from '../../../bluebeltTest.json';
+import { useAuth } from '../../contexts/AuthContext';
+import { updateUserScore } from '../utils/userUtils';
+
+interface MoveStep {
+  order: number;
+  description: string;
+}
+
+interface Move {
+  title: string;
+  media: boolean;
+  "move steps": MoveStep[];
+}
+
+type GameState = 'playing' | 'won' | 'lost';
+type BeltType = 'black' | 'brown' | 'purple' | 'blue' | 'white' | 'fail' | null;
 
 export default function MoveStepsGame() {
   const [currentMoveIndex, setCurrentMoveIndex] = useState(0);
   const [showGif, setShowGif] = useState(false);
-  const [shuffledSteps, setShuffledSteps] = useState([]);
-  const [selectedSteps, setSelectedSteps] = useState([]);
-  const [gameState, setGameState] = useState('playing'); // 'playing', 'won', 'lost'
+  const [shuffledSteps, setShuffledSteps] = useState<MoveStep[]>([]);
+  const [selectedSteps, setSelectedSteps] = useState<MoveStep[]>([]);
+  const [gameState, setGameState] = useState<GameState>('playing');
   const [timeLeft, setTimeLeft] = useState(60);
   const [timeTaken, setTimeTaken] = useState(0);
-  const [beltAwarded, setBeltAwarded] = useState(null);
+  const [beltAwarded, setBeltAwarded] = useState<BeltType>(null);
+  const { user } = useAuth();
 
-  const movesWithMedia = moves.filter(move => move.media === true);
+  const movesWithMedia = moves.filter((move: Move) => move.media === true);
   const currentMove = movesWithMedia[currentMoveIndex];
 
   useEffect(() => {
@@ -48,7 +64,7 @@ export default function MoveStepsGame() {
     setTimeLeft(60);
   };
 
-  const shuffleArray = (array) => {
+  const shuffleArray = (array: MoveStep[]) => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -56,7 +72,7 @@ export default function MoveStepsGame() {
     return array;
   };
 
-  const handleStepClick = (step) => {
+  const handleStepClick = (step: MoveStep) => {
     if (gameState !== 'playing') return;
   
     const newSelectedSteps = [...selectedSteps, step];
@@ -72,7 +88,7 @@ export default function MoveStepsGame() {
     }
   };
 
-  const getStepButtonClass = (step) => {
+  const getStepButtonClass = (step: MoveStep) => {
     if (!selectedSteps.includes(step)) return 'bg-dojoGold hover:bg-dojoGold-dark';
     if (gameState === 'playing') return 'bg-dojoBlue';
     return selectedSteps.indexOf(step) === step.order - 1 ? 'bg-green-500' : 'bg-red-500';
@@ -86,8 +102,7 @@ export default function MoveStepsGame() {
     setCurrentMoveIndex((prevIndex) => (prevIndex - 1 + movesWithMedia.length) % movesWithMedia.length);
   };
 
-  const getBeltAward = (time) => {
-    console.log('get belt')
+  const getBeltAward = (time: number): BeltType => {
     if (time <= 10) return 'black';
     if (time <= 20) return 'brown';
     if (time <= 30) return 'purple';
@@ -95,20 +110,24 @@ export default function MoveStepsGame() {
     return 'white';
   };
 
-  const endGame = (result) => {
+  const endGame = async (result: GameState) => {
     setGameState(result);
     if (result === 'won') {
       const timeSpent = 60 - timeLeft;
       setTimeTaken(timeSpent);
-      setBeltAwarded(getBeltAward(timeSpent));
-      console.log(beltAwarded)
+      const belt = getBeltAward(timeSpent);
+      setBeltAwarded(belt);
+      
+      if (user) {
+        await updateUserScore(user.uid, belt);
+      }
     } else {
       setBeltAwarded('fail');
     }
   };
 
-  const getBeltColor = (belt) => {
-    const colors = {
+  const getBeltColor = (belt: BeltType) => {
+    const colors: {[key in NonNullable<BeltType>]: string} = {
       black: 'bg-black',
       brown: 'bg-yellow-800',
       purple: 'bg-purple-600',
@@ -116,7 +135,7 @@ export default function MoveStepsGame() {
       white: 'bg-white border border-gray-300',
       fail: 'bg-red-500'
     };
-    return colors[belt] || 'bg-gray-300';
+    return colors[belt as NonNullable<BeltType>] || 'bg-gray-300';
   };
 
   return (
@@ -129,7 +148,7 @@ export default function MoveStepsGame() {
               <h2 className="text-xl sm:text-2xl font-bold text-dojoRed mb-4">{currentMove.title}</h2>
               <div className="relative w-full aspect-square cursor-pointer" onClick={() => setShowGif(!showGif)}>
                 <Image
-                  src={showGif ? `/media/gifs/${currentMove.title}.gif` : `/media/images/${currentMove.title}(1).png`}
+                  src={showGif ? `/media/gifs/${currentMove.title}.gif` : `/media/images/${currentMove.title}.png`}
                   alt={currentMove.title}
                   layout="fill"
                   objectFit="contain"
@@ -170,7 +189,7 @@ export default function MoveStepsGame() {
           </button>
           <button
             className="bg-dojoRed text-dojoWhite font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-dojoGold transition duration-300"
-            onClick={gameState !== 'playing' ? resetGame : null}
+            onClick={gameState !== 'playing' ? resetGame : () => {}}
           >
             {gameState !== 'playing' ? 'Play Again' : 'Reset'}
           </button>

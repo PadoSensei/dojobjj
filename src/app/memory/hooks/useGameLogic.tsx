@@ -14,7 +14,6 @@ export function useGameLogic(movesData) {
   const startNewGame = () => {
     console.log('Starting new memory game');
     // const allMoves = flattenMoves(movesData);
-    // console.log(allMoves.length)
 
     // Filter moves where media is true
     const movesWithMedia = movesData.filter(move => move.media === true);

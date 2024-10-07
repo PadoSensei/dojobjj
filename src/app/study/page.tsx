@@ -13,6 +13,7 @@ export default function Study() {
   const [showGif, setShowGif] = useState(false);
 
   const movesWithMedia = moves.filter(move => move.media === true);
+  console.log("move cards loaded into the study section:", movesWithMedia);
   const currentMove = movesWithMedia[currentMoveIndex];
 
   const goToNextMove = () => {
@@ -40,7 +41,7 @@ export default function Study() {
                 <Image
                   src={showGif
                     ? `/media/gifs/${currentMove.title}.gif`
-                    : `/media/images/${currentMove.title}(1).png`
+                    : `/media/images/${currentMove.title}.png`
                   }
                   alt={currentMove.title}
                   layout="fill"
