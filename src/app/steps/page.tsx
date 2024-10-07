@@ -37,7 +37,7 @@ export default function MoveStepsGame() {
 
   useEffect(() => {
     resetGame();
-  }, [currentMoveIndex]);
+  }, [currentMoveIndex, resetGame, endGame]);
 
   useEffect(() => {
     if (gameState !== 'playing') return;

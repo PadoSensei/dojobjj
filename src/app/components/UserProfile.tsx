@@ -30,7 +30,7 @@ export function ProfileComponent() {
   return (
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-16">
       <div className="text-center p-6 bg-dojoRed text-white">
-        <h2 className="text-3xl font-bold">{profile.displayName || 'User'}'s Profile</h2>
+        <h2 className="text-3xl font-bold">{`${profile.displayName || 'User'}'s Profile`}</h2>
       </div>
       <div className="p-6">
         <p className="text-gray-700 mb-4"><span className="font-bold">Email:</span> {profile.email}</p>

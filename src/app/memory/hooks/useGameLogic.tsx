@@ -61,7 +61,7 @@ export function useGameLogic(movesData) {
     if (movesData) {
       startNewGame();
     }
-  }, [movesData]);
+  }, [movesData, startNewGame]);
 
   return {
     cards,
