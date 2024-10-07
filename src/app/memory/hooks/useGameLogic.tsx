@@ -1,7 +1,6 @@
 import movesData from '../../../../bluebeltTest.json';
 
-
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react'
 import { shuffleArray } from '../../utils/gameUtils';
 
 interface Move {

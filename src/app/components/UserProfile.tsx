@@ -1,11 +1,31 @@
-// src/components/UserProfile.js
+// src/components/UserProfile.tsx
 import React, { useEffect } from 'react';
 import useStore from '../../store/useStore';
 import { useAuth } from '../../contexts/AuthContext';
 
+interface BeltAwards {
+  [key: string]: number | undefined;
+}
+
+interface Profile {
+  displayName?: string;
+  email?: string;
+  totalGamesPlayed?: number;
+  gamesWon?: number;
+  gamesLost?: number;
+  beltAwards?: BeltAwards;
+}
+
+interface StoreState {
+  user: Profile | null;
+  fetchUserData: (uid: string) => void;
+  loading: boolean;
+  error: string | null;
+}
+
 export function ProfileComponent() {
   const { user } = useAuth();
-  const { user: profile, fetchUserData, loading, error } = useStore();
+  const { user: profile, fetchUserData, loading, error } = useStore() as StoreState;
 
   useEffect(() => {
     if (user?.uid && !profile) {
@@ -14,9 +34,11 @@ export function ProfileComponent() {
   }, [user, profile, fetchUserData]);
 
   if (loading) {
-    return <div className="flex justify-center items-center h-screen">
-      <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-dojoRed"></div>
-    </div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-dojoRed"></div>
+      </div>
+    );
   }
 
   if (error) {
@@ -36,15 +58,15 @@ export function ProfileComponent() {
         <p className="text-gray-700 mb-4"><span className="font-bold">Email:</span> {profile.email}</p>
         <div className="grid grid-cols-3 gap-4 mb-6">
           <div className="text-center p-2 bg-gray-100 rounded">
-            <p className="text-xl font-bold">{profile.totalGamesPlayed || 0}</p>
+            <p className="text-xl font-bold">{profile.totalGamesPlayed ?? 0}</p>
             <p className="text-sm text-gray-600">Total Games</p>
           </div>
           <div className="text-center p-2 bg-gray-100 rounded">
-            <p className="text-xl font-bold text-green-600">{profile.gamesWon || 0}</p>
+            <p className="text-xl font-bold text-green-600">{profile.gamesWon ?? 0}</p>
             <p className="text-sm text-gray-600">Won</p>
           </div>
           <div className="text-center p-2 bg-gray-100 rounded">
-            <p className="text-xl font-bold text-red-600">{profile.gamesLost || 0}</p>
+            <p className="text-xl font-bold text-red-600">{profile.gamesLost ?? 0}</p>
             <p className="text-sm text-gray-600">Lost</p>
           </div>
         </div>
@@ -55,7 +77,7 @@ export function ProfileComponent() {
               {Object.entries(profile.beltAwards).map(([belt, count]) => (
                 <div key={belt} className="flex items-center justify-between bg-gray-100 p-2 rounded">
                   <span className="capitalize">{belt}</span>
-                  <span className="bg-dojoRed text-white px-2 py-1 rounded">{count}</span>
+                  <span className="bg-dojoRed text-white px-2 py-1 rounded">{count ?? 'N/A'}</span>
                 </div>
               ))}
             </div>
