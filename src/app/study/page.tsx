@@ -1,11 +1,11 @@
 //@ts-nocheck
 "use client"
 // pages/study.js
-
+import React from 'react';
 import { useState } from 'react';
 import Image from 'next/image';
 import moves from '../../../bluebeltTest.json'
-import { shuffleArray, flattenMoves } from '../utils/gameUtils'
+// import { shuffleArray, flattenMoves } from '../utils/gameUtils'
 
 export default function Study() {
 

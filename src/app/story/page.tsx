@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import storyData from '../../../adventures/dummyStory.json';
 import animalStyles from './../../../animalStyles.json';
-import blueBeltMoves from '../../../bluebeltTest.json';
+// import blueBeltMoves from '../../../bluebeltTest.json';
 
 const BJJAdventureStory = () => {
   const [selectedStyle, setSelectedStyle] = useState(null);

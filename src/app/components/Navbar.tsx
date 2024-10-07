@@ -1,6 +1,6 @@
 // src/components/Navbar.tsx
 'use client';
-
+import React from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/contexts/AuthContext';
 import { useRouter } from 'next/navigation';

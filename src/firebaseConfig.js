@@ -30,7 +30,7 @@ export const db = getFirestore(app);
 
 if (typeof window !== 'undefined') {
   import('firebase/analytics').then(({ getAnalytics }) => {
-    const analytics = getAnalytics(app);
-    console.log('Analytics initialized');
+    // const analytics = getAnalytics(app);
+    // console.log('Analytics initialized');
   });
 }
