@@ -1,9 +1,9 @@
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, updateProfile } from 'firebase/auth';
-import { getFirebaseApp, getDb, getAuth } from '@/firebaseConfig';
+import { getFirebaseApp, getDb, getFireAuth } from '@/firebaseConfig';
 import { createUserDocument } from '@/app/utils/firebase';
 
 // When you need Auth
-const auth = getAuth();
+const auth = getFireAuth();
 
 export async function signUp(email: string, password: string, displayName: string) {
   try {
