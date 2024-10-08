@@ -1,7 +1,16 @@
 // src/utils/firebase.ts
 import { doc, getDoc, setDoc, updateDoc, collection, getDocs, writeBatch  } from 'firebase/firestore';
-import { db } from '../../firebaseConfig'
-import moveData from '../../../bluebeltTest.json'
+import { getFirebaseApp, getDb, getAuth } from '../../firebaseConfig';
+import moveData from '../../../bluebeltTest.json';
+
+// When you need Firebase App
+const app = getFirebaseApp();
+
+// When you need Firestore
+const db = getDb();
+
+// When you need Auth
+const auth = getAuth();
 
 export async function createUserDocument(userId: string, userData: any) {
     try {

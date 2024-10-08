@@ -2,9 +2,17 @@
 'use client'
 import React, { createContext, useContext, useEffect, useState } from 'react';
 import { onAuthStateChanged, signOut as firebaseSignOut } from 'firebase/auth';
-import { auth } from '../firebaseConfig';
+import { getFirebaseApp, getDb, getAuth } from '../firebaseConfig';
 import useStore from '@/store/useStore';
 
+// When you need Firebase App
+const app = getFirebaseApp();
+
+// When you need Firestore
+const db = getDb();
+
+// When you need Auth
+const auth = getAuth();
 
 interface AuthContextType {
   user: any;
