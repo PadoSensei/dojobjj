@@ -1,7 +1,7 @@
 //@ts-nocheck
 "use client"
-import React, { useState, useEffect } from 'react';
-import Card from './components/Card';
+import React from 'react';
+// import Card from './components/Card';
 import GameBoard from './components/GameBoard';
 import movesData from '../../../bluebeltTest.json';
 

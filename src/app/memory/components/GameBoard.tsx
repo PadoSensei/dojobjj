@@ -1,4 +1,5 @@
 //@ts-nocheck
+import React from 'react';
 import { useGameLogic } from '../hooks/useGameLogic'
 import Card from './Card'
 import GameStatus from './GameStatus'
