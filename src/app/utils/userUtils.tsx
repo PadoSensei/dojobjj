@@ -1,7 +1,7 @@
 // src/utils/userUtils.ts
 import { User, UserCredential, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
-import { getFirebaseApp, getDb, getAuth } from '../../firebaseConfig';
+import { getFirebaseApp, getDb, getFireAuth } from '../../firebaseConfig';
 
 // When you need Firebase App
 const app = getFirebaseApp();
@@ -10,7 +10,7 @@ const app = getFirebaseApp();
 const db = getDb();
 
 // When you need Auth
-const auth = getAuth();
+const auth = getFireAuth();
 
 interface UserProfile {
   displayName: string;

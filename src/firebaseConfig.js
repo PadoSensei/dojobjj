@@ -42,7 +42,7 @@ export function getDb() {
   return db;
 }
 
-export function getAuth() {
+export function getFireAuth() {
   if (!auth) {
     initializeFirebase();
   }
